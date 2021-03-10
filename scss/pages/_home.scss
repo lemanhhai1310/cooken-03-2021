@@ -85,8 +85,82 @@
     }
   }
   &__section03{
+    //max-height: 358px !important;
     @include media-breakpoint-up('m'){
       min-height: 358px !important;
+    }
+  }
+  &__section04{
+    @include media-breakpoint-up('m'){
+      padding-top: 284px !important;
+      padding-bottom: 120px !important;
+    }
+    &__box1{
+      &__title{
+        &:hover{
+          color: #ffffff;
+        }
+        background: $color-02;
+        color: #ffffff;
+        padding: 10px 15px;
+        padding-right: 5px;
+        //padding: 20px 25px;
+        &:before{
+          //background: #ffffff;
+          //border-radius: 50%;
+          background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 12C0 5.376 5.376 0 12 0C18.624 0 24 5.376 24 12C24 18.624 18.624 24 12 24C5.376 24 0 18.624 0 12ZM13.2 13.2H18V10.8H13.2V6H10.8V10.8H6V13.2H10.8V18H13.2V13.2Z' fill='white'/%3E%3C/svg%3E%0A");
+          .uk-open > &{
+            background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 12C0 5.376 5.376 0 12 0C18.624 0 24 5.376 24 12C24 18.624 18.624 24 12 24C5.376 24 0 18.624 0 12ZM6 13.2H18V10.8H6V13.2Z' fill='white'/%3E%3C/svg%3E%0A");
+          }
+        }
+        &__txt{
+          @extend .fz-20;
+          line-height: (23/20);
+          font-family: $font-primary-Bold;
+        }
+      }
+      &__content{
+        margin: 0 !important;
+        @extend .fz-16;
+        line-height: (19/16);
+        color: #000;
+      }
+    }
+    &__blog{
+      &__box2{
+        &__txt1{
+          font-family: $font-secondary-Bold;
+          @extend .fz-50;
+          line-height: (61/50);
+          color: $color-02;
+        }
+        &__txt2{
+          @extend .fz-14;
+          line-height: (16/14);
+          color: #000;
+        }
+      }
+      &__box1{
+        >*{
+          &:nth-child(n+2){
+            @include media-breakpoint-up('m'){
+              margin-top: 20px !important;
+            }
+          }
+        }
+        &__title{
+          @extend .fz-14;
+          line-height: (16/14);
+          a{
+            color: #000;
+          }
+        }
+        &__date{
+          @extend .fz-14;
+          line-height: (16/14);
+          color: #888888;
+        }
+      }
     }
   }
 }
