@@ -1,0 +1,46 @@
+.footer{
+  background-color: $color-04;
+  &__top{
+    &__grid1{
+      @include media-breakpoint-up('m'){
+        margin-bottom: 42px !important;
+      }
+    }
+    &__box1{
+      @extend .fz-16;
+      color: #ffffff !important;
+    }
+    &__title{
+      font-family: $font-primary-Bold;
+      color: $color-01 !important;
+      @extend .fz-20;
+      line-height: (23/20);
+    }
+    &__menu{
+      >li{
+        &:nth-child(n+2){
+          margin-top: 20px !important;
+        }
+        >a{
+          @extend .fz-16;
+          color: #ffffff !important;
+        }
+      }
+    }
+  }
+  &__bottom{
+    background-color: $color-02;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    &__btn{
+      @extend .fz-16;
+      text-transform: inherit;
+      border-radius: 14px;
+      background: $color-03;
+      &:hover,
+      &.uk-active{
+        background: $color-01;
+      }
+    }
+  }
+}

@@ -10,3 +10,22 @@
   font-weight:normal;
   font-style:normal;
 }
+/**
+ * --------------------------------------------------------------------
+ * Raleway
+ * --------------------------------------------------------------------
+ */
+@font-face{
+  font-family:'Raleway Regular';
+  font-display: auto;
+  src:local('Raleway Regular'), url('fonts/Raleway/static/Raleway-Regular.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Raleway Bold';
+  font-display: auto;
+  src:local('Raleway Bold'), url('fonts/Raleway/static/Raleway-Bold.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
