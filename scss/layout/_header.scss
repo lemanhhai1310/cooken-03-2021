@@ -1,0 +1,29 @@
+.header{
+  .uk-sticky-below > &{
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+  }
+  &__navitem{
+    min-height: 110px;
+    .uk-sticky-below &{
+      min-height: 80px;
+    }
+  }
+  .uk-logo{
+    img{
+      .uk-sticky-below &{
+        height: 60px;
+      }
+    }
+  }
+  .uk-navbar-nav{
+    >li{
+      >a{
+        @extend .fz-20;
+        font-family: $font-primary-Bold;
+        color: #000;
+        text-transform: inherit;
+        @extend .header__navitem;
+      }
+    }
+  }
+}
