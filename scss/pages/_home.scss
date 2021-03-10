@@ -67,6 +67,7 @@
       border-radius: 14px;
       @extend .fz-16;
       color: $color-09;
+      border-color: #888888;
       @include media-breakpoint-up('m'){
         height: 50px !important;
       }
@@ -81,6 +82,11 @@
       @include media-breakpoint-up('m'){
         line-height: 48px !important;
       }
+    }
+  }
+  &__section03{
+    @include media-breakpoint-up('m'){
+      min-height: 358px !important;
     }
   }
 }
