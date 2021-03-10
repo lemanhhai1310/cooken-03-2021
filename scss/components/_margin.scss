@@ -10,11 +10,18 @@
 }
 $mb:
 0,
-10,
+10,17,
 20,
 30,
-40,
-50;
+40,43,44,
+50,
+60,64,
+70,76,
+80,
+90,
+100,
+110,
+120;
 @each $i in $mb {
   .mb-#{$i}-xl{
     @include media-breakpoint-up('xl'){
@@ -54,9 +61,10 @@ $mt:
 0,
 10,
 20,
-30,
+30,37,
 40,
-50;
+50,
+60;
 @each $i in $mt {
   .mt-#{$i}-xl{
     @include media-breakpoint-up('xl'){

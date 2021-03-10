@@ -1,0 +1,55 @@
+.home{
+  &__boxCommon{
+    > *{
+      &:nth-child(n+2){
+        margin-top: 20px;
+      }
+    }
+    &__title{
+      @extend .fz-30;
+      line-height: (35/30);
+      font-family: $font-primary-Bold;
+    }
+    &__desc{
+
+    }
+  }
+  &__dot1{
+    >li{
+      &.uk-active{
+        >a{
+          background: $color-01;
+        }
+      }
+      >a{
+        &:hover{
+          background: $color-01;
+        }
+        $x: 12px;
+        width: #{$x};
+        height: #{$x};
+        border-color: $color-07;
+      }
+    }
+  }
+  &__section01{
+    padding-top: 63px !important;
+    @include media-breakpoint-up('m'){
+      padding-top: 171px !important;
+      padding-bottom: 63px !important;
+    }
+    &__box1{
+      &__img{
+        min-height: 201px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      &__txt{
+        @extend .fz-16;
+        line-height: (19/16);
+        color: #000;
+      }
+    }
+  }
+}

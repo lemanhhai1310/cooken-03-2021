@@ -1,7 +1,7 @@
 @mixin font-size($i){
-  @if $i <= $base-design-font + 1 {
+  @if $i <= $base-design-font + 2 {
     @include fluidx(base($i),scale_10(base($i)),font-size);
-  } @else if $i <= $base-design-font + 3 {
+  } @else if $i <= $base-design-font + 4 {
     @include fluidx(base($i),scale_9(base($i)),font-size);
   } @else if $i > $base-design-font*2 {
     @include fluidx(base($i),scale_7(base($i)),font-size);

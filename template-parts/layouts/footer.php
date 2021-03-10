@@ -1,6 +1,6 @@
 <footer class="footer">
     <div class="uk-section-small footer__top uk-light">
-        <div class="uk-container">
+        <div class="uk-container uk-container-small">
             <div class="uk-child-width-1-4@m uk-margin footer__top__grid1" uk-grid>
                 <div>
                     <h5 class="uk-h5 footer__top__title">Về chúng tôi</h5>
@@ -29,16 +29,27 @@
                         <li><a href="">Quy trình làm việc</a></li>
                         <li><a href="">Chính sách thanh toán</a></li>
                     </ul>
+                    <div class="uk-child-width-auto uk-grid-small uk-grid-20-m uk-flex-middle" uk-grid>
+                        <div>
+                            <a href=""><img src="images/social/fb.png" alt=""></a>
+                        </div>
+                        <div>
+                            <a href=""><img src="images/social/telegram.png" alt=""></a>
+                        </div>
+                        <div>
+                            <a href=""><img src="images/social/in.png" alt=""></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="footer__top__box1">
                 <div>© 2021 Cassandera Capital LTD</div>
-                <div>Toà nhà HNC Premier - số 8 Lý Nam 1 </div>
+                <div>Giấy phép số 8723/GP-TTĐT - Sở thông tin và truyền thông TP. Hồ Chí Minh - Cấp ngày 02/02/2015. Ghi rõ nguồn khi bạn phát hành lại thông tin từ website này.</div>
             </div>
         </div>
     </div>
     <div class="uk-section-xsmall footer__bottom">
-        <div class="uk-container">
+        <div class="uk-container uk-container-small">
             <div class="uk-child-width-auto uk-grid-small uk-grid-20-m uk-flex-center" uk-grid>
                 <?php
                 $data = array(
