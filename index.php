@@ -2,8 +2,49 @@
 <?php $is_home = true; ?>
 <?php require "template-parts/layouts/header.php"; ?>
 
-<!---->
-<!--/-->
+<!--Banner-->
+<div class="home__section05 uk-section uk-background-norepeat uk-background-bottom-center" uk-height-viewport="offset-top: true;" data-src="images/Background1.png" uk-img>
+    <div class="uk-container uk-container-small">
+        <div class="uk-flex-middle uk-child-width-1-2@m uk-flex-right@m uk-position-relative" uk-grid>
+            <div class="" uk-toggle="cls: uk-position-center-left; mode: media; media: @m">
+                <div class="home__section05__box1">
+                    <h1 class="uk-h1 home__section05__box1__title uk-margin">The Evoling <br>
+                        Ad Network</h1>
+                    <div class="home__section05__box1__box uk-margin">
+                        <p class="home__section05__box1__desc">Cooken là một mạng quảng cáo giao dịch quảng cáo gốc, trong trang,
+                            đẩy và quảng cáo bật lên theo các mô hình định giá CPM và CPC.</p>
+                        <p class="home__section05__box1__desc">Phục vụ hơn 2 tỷ lần hiển thị mỗi ngày, chúng tôi cung cấp nhiều tùy
+                            chọn thanh toán, dịch vụ chăm sóc khách hàng 24-7 và người quản lý
+                            tài khoản chuyên dụng. Chúng tôi cố gắng trở thành người giỏi nhất
+                            trong lớp, giúp bạn và doanh nghiệp của bạn phát triển.</p>
+                    </div>
+                    <a href="" class="home__section05__box1__btn uk-border-rounded uk-button uk-button-secondary">Xem thêm</a>
+                </div>
+            </div>
+            <div class="uk-width-3-5@m">
+                <img src="images/MaskGroup1.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Banner-->
+
+<div class="uk-section home__section06 uk-text-center uk-background-norepeat uk-background-top-center" data-src="images/bg2.png" uk-img>
+    <div class="uk-container uk-container-small">
+        <div class="uk-text-center uk-margin home__boxCommon mb-28-m">
+            <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">GIỚI THIỆU</h2>
+        </div>
+        <div class="uk-flex-center uk-margin mb-80-m" uk-grid>
+            <div class="uk-width-3-5@m">
+                <div class="uk-text-center">
+                    <p class="home__section05__box1__desc">Với chất lượng dịch vụ vượt trội, phục vụ hơn 50+ khách hàng mỗi ngày với tổng ngân sách hàng tỷ đồng, đội ngũ chăm sóc khách hàng thường trực cùng chính sách thanh toán hấp dẫn, chúng tôi tự tin mang đến cho bạn những giải pháp tốt nhất với mức độ hài lòng cao nhất.</p>
+                    <p class="home__section05__box1__desc">Hãy đồng hành cùng Cooken Agency - và chúng ta sẽ cùng nhau phát triển!</p>
+                </div>
+            </div>
+        </div>
+        <div><a href="" class="uk-button home__section06__btn uk-border-rounded uk-button-default">LIÊN HỆ NGAY</a></div>
+    </div>
+</div>
 
 <!---->
 <div class="uk-section-xlarge home__section04 uk-background-norepeat uk-background-top-center" uk-height-viewport="offset-bottom: true" data-src="images/bg4.png" uk-img>

@@ -167,4 +167,49 @@
       }
     }
   }
+  &__section05{
+    @include media-breakpoint-up('m'){
+      min-height: 751px !important;
+      padding-top: 113px !important;
+    }
+    &__box1{
+      &__title{
+        @extend .fz-48;
+        font-family: $font-primary-Bold;
+        line-height: (56/48);
+        color: #000;
+        margin-top: 0 !important;
+      }
+      &__box{
+        @include media-breakpoint-up('m'){
+          margin-bottom: 67px;
+        }
+      }
+      &__desc{
+        @extend .fz-16;
+        line-height: (19/16);
+        color: #000;
+      }
+      &__btn{
+        font-family: $font-primary-Bold;
+        @extend .fz-20;
+        background: $color-01;
+        color: #ffffff;
+        text-transform: inherit;
+        @include media-breakpoint-up('m'){
+          line-height: 48px;
+        }
+      }
+    }
+  }
+  &__section06{
+    &__btn{
+      @extend .fz-20;
+      font-family: $font-primary-Bold;
+      color: #000;
+      line-height: 48px;
+      border-color: #C4C4C4;
+      //border-radius: 8px;
+    }
+  }
 }
