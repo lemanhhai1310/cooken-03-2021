@@ -2,16 +2,20 @@
   &__boxCommon{
     > *{
       &:nth-child(n+2){
-        margin-top: 20px;
+        margin-top: 10px !important;
+        @include media-breakpoint-up('m'){
+          margin-top: 20px !important;
+        }
       }
     }
     &__title{
       @extend .fz-30;
       line-height: (35/30);
       font-family: $font-primary-Bold;
+      margin: 0 !important;
     }
     &__desc{
-
+      @extend .home__section01__box1__txt;
     }
   }
   &__dot1{
@@ -49,6 +53,33 @@
         @extend .fz-16;
         line-height: (19/16);
         color: #000;
+      }
+    }
+  }
+  &__section02{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    @include media-breakpoint-up('m'){
+      padding-top: 31px !important;
+      padding-bottom: 55px !important;
+    }
+    &__input{
+      border-radius: 14px;
+      @extend .fz-16;
+      color: $color-09;
+      @include media-breakpoint-up('m'){
+        height: 50px !important;
+      }
+      &::placeholder{
+        color: $color-09;
+      }
+    }
+    &__btn{
+      @extend .fz-20;
+      font-family: $font-primary-Bold;
+      background: $color-01;
+      @include media-breakpoint-up('m'){
+        line-height: 48px !important;
       }
     }
   }
