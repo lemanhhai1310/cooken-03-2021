@@ -5,8 +5,11 @@ console.log(
 
 var a = 0;
 $(window).scroll(function() {
+  counTer();
+});
 
-  var oTop = $('#counter').offset().top - window.innerHeight;
+function counTer() {
+  var oTop = $('.counter').offset().top - window.innerHeight;
   if (a == 0 && $(window).scrollTop() > oTop) {
     $('.counter-value').each(function() {
       var $this = $(this),
@@ -33,5 +36,4 @@ $(window).scroll(function() {
     });
     a = 1;
   }
-
-});
+}

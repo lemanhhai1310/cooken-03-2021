@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e397632b-6e6c-438c-a762-a9464889c7b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/anhminhhoa1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02/vieclam123/_locvieclam.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/_locvieclam.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02/vieclam123/locvieclam.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/locvieclam.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02/vieclam123/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/scss/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02/vieclam123/scss/pages/_locvieclam.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/scss/pages/_locvieclam.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02/vieclam123/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02/vieclam123/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_grid.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/components/_margin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_margin.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -47,7 +56,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -66,7 +75,9 @@
       <workItem from="1615342373010" duration="1555000" />
       <workItem from="1615346888666" duration="4009000" />
       <workItem from="1615355478713" duration="12049000" />
-      <workItem from="1615380800998" duration="1971000" />
+      <workItem from="1615380800998" duration="2511000" />
+      <workItem from="1615422323943" duration="289000" />
+      <workItem from="1615432116116" duration="3921000" />
     </task>
     <servers />
   </component>
@@ -82,5 +93,13 @@
       <screen x="1920" y="25" width="1920" height="1055" />
     </state>
     <state x="2701" y="480" key="NewPhpFileDialog/50.25.1870.1055/1920.25.1920.1055@1920.25.1920.1055" timestamp="1615360184247" />
+    <state x="2389" y="188" key="SettingsEditor" timestamp="1615422511495">
+      <screen x="1920" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2389" y="188" key="SettingsEditor/50.25.1870.1055/1920.25.1920.1055@1920.25.1920.1055" timestamp="1615422511495" />
+    <state x="2545" y="259" width="670" height="676" key="search.everywhere.popup" timestamp="1615454220468">
+      <screen x="1920" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2545" y="259" width="670" height="676" key="search.everywhere.popup/50.25.1870.1055/1920.25.1920.1055@1920.25.1920.1055" timestamp="1615454220468" />
   </component>
 </project>

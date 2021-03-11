@@ -46,7 +46,65 @@
     </div>
 </div>
 
-<!---->
+<!--DỊCH VỤ-->
+<div class="uk-section home__section07" uk-height-viewport="offset-bottom: false">
+    <div class="uk-container uk-container-small">
+        <div class="uk-text-center uk-margin home__boxCommon mb-40-m">
+            <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">DỊCH VỤ</h2>
+        </div>
+        <ul class="uk-child-width-auto@m uk-margin mb-60-m uk-grid-small uk-grid-30-m uk-flex-center" uk-grid uk-switcher="connect: .my-class">
+            <?php
+            $data = array(
+                'Facebook Marketing',
+                'TIKTOK MARKETING',
+                'APPLICATION MARKETING',
+                'MEDIA SOLUTION',
+            );
+            foreach ($data as $k => $v): ?>
+            <li>
+                <a href="" class="home__section07__box1__btn uk-button uk-button-default"><?= $v ?></a>
+            </li>
+            <?php endforeach; ?>
+        </ul>
+        <ul class="uk-switcher mb-60-m my-class">
+            <?php
+            $data = array(
+                'Facebook Marketing',
+                'TIKTOK MARKETING',
+                'APPLICATION MARKETING',
+                'MEDIA SOLUTION',
+            );
+            foreach ($data as $k => $v): ?>
+                <li>
+                    <div class="uk-flex-middle uk-grid-small uk-grid-58-m" uk-grid>
+                        <div class="uk-width-expand">
+                            <img src="images/anhminhhoa1.png" alt="">
+                        </div>
+                        <div class="uk-width-2-5@m">
+                            <h3 class="uk-h3 home__section07__box2__title uk-text-capitalize"><?= $v ?></h3>
+                            <div class="mb-20 mb-32-m">
+                                <p class="home__section05__box1__desc uk-margin-remove">Cooken Agency là đối tác chính thức của Facebook tại thị trường Việt Nam. Với năng lực, kinh nghiệm và uy tín của mình, chúng tôi đã và đang giúp hàng trăm doanh nghiệp nâng cao năng lực cạnh tranh và cải thiện hiệu quả kinh doanh  thông qua dịch vụ Facebook Marketing </p>
+                            </div>
+                            <ul class="uk-list uk-list-bullet home__section07__box2__list">
+                                <li>Tiếp cận người dùng khổng lồ của Facebook</li>
+                                <li>Giảm thiểu tối đa chi phí quảng cáo lãng phí </li>
+                                <li>Nâng cao nhận diện thương hiệu tối ưu doanh
+                                    số bán hàng</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+
+        <div class="uk-text-center uk-margin home__boxCommon mb-40-m">
+            <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">DỰ ÁN</h2>
+        </div>
+    </div>
+</div>
+<!--/DỊCH VỤ-->
+
+<!--LỢI THẾ CỦA COOKEN AGENCY-->
 <div class="uk-section-xlarge home__section04 uk-background-norepeat uk-background-top-center" uk-height-viewport="offset-bottom: true" data-src="images/bg4.png" uk-img>
     <div class="uk-container uk-container-small">
 
@@ -102,34 +160,36 @@
             <div class="uk-text-center uk-margin home__boxCommon mb-80-m">
                 <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">NHỮNG CON SỐ BIẾT NÓI CỦA COOKEN AGENCY</h2>
             </div>
-            <div id="counter" class="uk-child-width-1-2 uk-grid-small uk-grid-43-m" uk-grid>
-                <?php
-                $data = array(
-                    array(
-                        'number' => 999,
-                        'title' => 'Khách hàng đã thành công',
-                    ),
-                    array(
-                        'number' => 3000,
-                        'title' => 'Dự án triển khai',
-                    ),
-                    array(
-                        'number' => 20,
-                        'title' => 'Nhân sự tài năng và tâm huyết',
-                    ),
-                    array(
-                        'number' => 500,
-                        'title' => 'Ngân sách trung bình hàng ngày',
-                    ),
-                );
-                foreach ($data as $k => $v): ?>
-                    <div class="<?= ($k == 3) ? 'uk-width-expand@m' : 'uk-width-auto@m' ?>">
-                        <div class="uk-text-center home__section04__blog__box2">
-                            <div class="home__section04__blog__box2__txt1"><span class="counter-value" data-count="<?= $v['number'] ?>">0</span><?= ($k == 3) ? ' TRIỆU' : '+' ?></div>
-                            <div class="home__section04__blog__box2__txt2"><?= $v['title'] ?></div>
+            <div uk-scrollspy="cls: counter;">
+                <div id="counter" class="uk-child-width-1-2 uk-grid-small uk-grid-43-m" uk-grid uk-scrollspy="target: .home__section04__blog__box2; cls: uk-animation-fade; delay: 500">
+                    <?php
+                    $data = array(
+                        array(
+                            'number' => 999,
+                            'title' => 'Khách hàng đã thành công',
+                        ),
+                        array(
+                            'number' => 3000,
+                            'title' => 'Dự án triển khai',
+                        ),
+                        array(
+                            'number' => 20,
+                            'title' => 'Nhân sự tài năng và tâm huyết',
+                        ),
+                        array(
+                            'number' => 500,
+                            'title' => 'Ngân sách trung bình hàng ngày',
+                        ),
+                    );
+                    foreach ($data as $k => $v): ?>
+                        <div class="<?= ($k == 3) ? 'uk-width-expand@m' : 'uk-width-auto@m' ?>">
+                            <div class="uk-text-center home__section04__blog__box2">
+                                <div class="home__section04__blog__box2__txt1"><span class="counter-value" data-count="<?= $v['number'] ?>">0</span><?= ($k == 3) ? ' TRIỆU' : '+' ?></div>
+                                <div class="home__section04__blog__box2__txt2"><?= $v['title'] ?></div>
+                            </div>
                         </div>
-                    </div>
-                <?php endforeach; ?>
+                    <?php endforeach; ?>
+                </div>
             </div>
         </div>
 
@@ -167,7 +227,7 @@
         </div>
     </div>
 </div>
-<!--/-->
+<!--/LỢI THẾ CỦA COOKEN AGENCY-->
 
 <!--REFERRAL PROGRAM-->
 <div class="home__section03 mb-120-m uk-flex uk-flex-middle uk-text-center uk-background-norepeat uk-background-center-center" uk-height-viewport="offset-bottom: true" data-src="images/bg3.png" uk-img>
