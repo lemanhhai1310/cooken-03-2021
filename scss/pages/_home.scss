@@ -187,6 +187,11 @@
         line-height: (56/48);
         color: #000;
         margin-top: 0 !important;
+        span{
+          .facebook &{
+            color: $color-08;
+          }
+        }
       }
       &__box{
         @include media-breakpoint-up('m'){
@@ -209,7 +214,7 @@
         }
       }
       &__img{
-        animation: d .7s 3s forwards;
+        //animation: d .7s 3s forwards;
         img{
           animation: f 15s 3s infinite;
           opacity: 1;

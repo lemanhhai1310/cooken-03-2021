@@ -4,7 +4,7 @@
             <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">ĐĂNG KÝ TƯ VẤN</h2>
             <p class="uk-margin-remove home__boxCommon__desc">Hãy để Cooken Agency đồng hành cùng thành công của bạn</p>
         </div>
-        <div class="uk-flex-center" uk-grid>
+        <div class="uk-flex-center" uk-grid uk-scrollspy="target: .animation; cls: uk-animation-slide-bottom-small; delay: 500; repeat: false;">
             <div class="uk-width-3-5@m">
                 <form class="uk-grid-small uk-grid-20-m uk-margin mb-40-m" uk-grid>
                     <div class="uk-width-1-1">
@@ -24,9 +24,12 @@
                     </div>
                 </form>
                 <div class="uk-text-center">
-                    <button type="button" class="home__section02__btn uk-button uk-button-secondary uk-border-pill">NHẬN ĐĂNG KÝ TƯ VẤN</button>
+                    <button type="button" class="animation home__section02__btn uk-button uk-button-secondary uk-border-pill">NHẬN ĐĂNG KÝ TƯ VẤN</button>
                 </div>
             </div>
         </div>
+        <?php if ($showkh): ?>
+
+        <?php endif; ?>
     </div>
 </div>

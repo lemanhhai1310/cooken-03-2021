@@ -1,6 +1,6 @@
-<?php $data["title"] = "Trang chủ"; ?>
+<?php $data["title"] = "Facebook Marketing"; ?>
 <?php $is_home = true; ?>
-<?php $showkh = false; ?>
+<?php $showkh = true; ?>
 <?php require "template-parts/layouts/header.php"; ?>
 
 <!--Banner-->
@@ -8,23 +8,20 @@
     <div class="uk-container uk-container-small">
         <div class="uk-flex-middle uk-child-width-1-2@m uk-flex-right@m uk-position-relative" uk-grid uk-scrollspy="target: .animation; cls: uk-animation-slide-bottom-small; delay: 500; repeat: false;">
             <div class="" uk-toggle="cls: uk-position-center-left; mode: media; media: @m">
-                <div class="home__section05__box1">
-                    <h1 class="uk-h1 home__section05__box1__title uk-margin animation">The Evoling <br>
-                        Ad Network</h1>
+                <div class="home__section05__box1 facebook">
+                    <h1 class="uk-h1 home__section05__box1__title uk-margin animation"><span>Facebook</span> Marketing <br>
+                        Quảng cáo hiệu quả <br> Bứt phá doanh thu</h1>
                     <div class="home__section05__box1__box uk-margin">
-                        <p class="home__section05__box1__desc animation">Cooken là một mạng quảng cáo giao dịch quảng cáo gốc, trong trang,
-                            đẩy và quảng cáo bật lên theo các mô hình định giá CPM và CPC.</p>
-                        <p class="home__section05__box1__desc animation">Phục vụ hơn 2 tỷ lần hiển thị mỗi ngày, chúng tôi cung cấp nhiều tùy
-                            chọn thanh toán, dịch vụ chăm sóc khách hàng 24-7 và người quản lý
-                            tài khoản chuyên dụng. Chúng tôi cố gắng trở thành người giỏi nhất
-                            trong lớp, giúp bạn và doanh nghiệp của bạn phát triển.</p>
+                        <p class="home__section05__box1__desc animation">Giải pháp kinh doanh online hiệu quả - ổn định traffic,tối ưu chi phí
+                            Cooken Media là Agency quảng cáo chính thức của Facebook tại Việt Nam. Với kinh nghiệm, khả năng và uy tín của mình,
+                            chúng tôi đang giúp đỡ +700 khách hàng kiếm nhiều tiền hơn từ Facebook mỗi ngày</p>
                     </div>
                     <a href="" class="home__section05__box1__btn uk-border-rounded uk-button uk-button-secondary animation">Xem thêm</a>
                 </div>
             </div>
-            <div class="uk-width-3-5@m">
+            <div class="uk-width-1-2@m">
                 <div class="home__section05__box1__img animation" uk-scrollspy-class="uk-animation-scale-up">
-                    <img src="images/MaskGroup1.png" alt="">
+                    <img src="images/Group-banner-fb.png" alt="">
                 </div>
             </div>
         </div>
