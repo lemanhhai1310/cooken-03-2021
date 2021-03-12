@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e397632b-6e6c-438c-a762-a9464889c7b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_tiktok-marketing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/pages/_tiktok-marketing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tiktok-marketing.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../base/scss/components/_keyframes.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/.idea/workspace.xml" afterDir="false" />
@@ -12,7 +15,13 @@
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/layouts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/layouts/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/layouts/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hopgiaygiare/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hopgiaygiare/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hopgiaygiare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hopgiaygiare/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/.idea/workspace.xml" afterDir="false" />
@@ -51,7 +60,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/duan" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -66,9 +75,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images/duan" />
       <recent name="$PROJECT_DIR$/fonts" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/template-parts/layouts" />
     </key>
   </component>
@@ -86,7 +95,7 @@
       <workItem from="1615380800998" duration="2511000" />
       <workItem from="1615422323943" duration="289000" />
       <workItem from="1615432116116" duration="4810000" />
-      <workItem from="1615512460505" duration="12033000" />
+      <workItem from="1615512460505" duration="13199000" />
     </task>
     <servers />
   </component>

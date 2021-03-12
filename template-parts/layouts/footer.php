@@ -13,7 +13,7 @@
                     <h5 class="uk-h5 footer__top__title">Dịch vụ</h5>
                     <ul class="uk-list footer__top__menu">
                         <li><a href="facebook-marketing.php">Facebook Marketing</a></li>
-                        <li><a href="">Tiktok Marketing</a></li>
+                        <li><a href="tiktok-marketing.php">Tiktok Marketing</a></li>
                         <li><a href="">Application Marketing</a></li>
                         <li><a href="">Media Solutions</a></li>
                     </ul>

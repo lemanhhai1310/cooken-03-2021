@@ -34,7 +34,7 @@
                                 <div class="uk-navbar-dropdown">
                                     <ul class="uk-nav uk-navbar-dropdown-nav">
                                         <li><a href="facebook-marketing.php">Facebook Marketing</a></li>
-                                        <li><a href="">Tiktok Marketing</a></li>
+                                        <li><a href="tiktok-marketing.php">Tiktok Marketing</a></li>
                                         <li><a href="">Application Marketing</a></li>
                                         <li><a href="">Media Solutions</a></li>
                                     </ul>
