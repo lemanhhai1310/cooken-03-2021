@@ -223,6 +223,9 @@
           .media &{
             color: #DAB700;
           }
+          .application &{
+            color: #0ECACA;
+          }
         }
       }
       &__box{
@@ -273,6 +276,7 @@
     }
     &__box1{
       &__btn{
+        min-width: 200px;
         padding: 0 20px;
         width: 100%;
         font-family: $font-primary-Bold;

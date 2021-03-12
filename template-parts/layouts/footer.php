@@ -14,7 +14,7 @@
                     <ul class="uk-list footer__top__menu">
                         <li><a href="facebook-marketing.php">Facebook Marketing</a></li>
                         <li><a href="tiktok-marketing.php">Tiktok Marketing</a></li>
-                        <li><a href="">Application Marketing</a></li>
+                        <li><a href="application-marketing.php">Application Marketing</a></li>
                         <li><a href="media-solution.php">Media Solutions</a></li>
                     </ul>
                 </div>
