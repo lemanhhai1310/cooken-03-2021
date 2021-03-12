@@ -1,3 +1,6 @@
+<!--LIÊN HỆ,HÌNH THỨC THANH TOÁN-->
+<?php require "template-parts/layouts/section01.php"; ?>
+<!--/LIÊN HỆ,HÌNH THỨC THANH TOÁN-->
 <footer class="footer">
     <div class="uk-section-small footer__top uk-light">
         <div class="uk-container uk-container-small">

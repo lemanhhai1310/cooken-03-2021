@@ -100,11 +100,56 @@
         <div class="uk-text-center uk-margin home__boxCommon mb-40-m">
             <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">DỰ ÁN</h2>
         </div>
-        <div class="uk-text-center">
+        <div class="uk-text-center uk-margin mb-60-m">
             <div class="uk-display-inline-block home__section07__box3 uk-border-pill">
-                <a href="" class="uk-button uk-button-default uk-border-pill">Việt Nam</a>
-                <a href="" class="uk-button uk-button-default uk-border-pill">Nước Ngoài</a>
+                <a href="" class="home__section07__box3__btn uk-active uk-button uk-button-default uk-border-pill">Việt Nam</a>
+                <a href="" class="home__section07__box3__btn uk-button uk-button-default uk-border-pill">Nước Ngoài</a>
             </div>
+        </div>
+        <div class="uk-child-width-1-3@m uk-grid-match uk-grid-small uk-grid-37-m" uk-grid>
+            <?php
+            $data = array(
+                array(
+                    'src' => 'images/duan/logo1.png',
+                    'txt' => array(
+                        'Số lượng người dùng sử dụng dịch vụ định danh khách hàng điện tử - eKYC 15x%',
+                        'Tổng số lượt nhắc đến trên các trang mạng xã hội ( Facebook, Tiktok, ...) tăng 200% xuyên suốt chiến dịch',
+                        'Số người dùng sử dụng ứng dụng sau khi đăng ký tài khoản tăng 54%',
+                    ),
+                ),
+                array(
+                    'src' => 'images/duan/logo2.png',
+                    'txt' => array(
+                        'Tổng số người dùng ứng dụng tăng trưởng 17x%',
+                        'Tỉ lệ người dùng quay lại/tái cài đặt tăng 63%',
+                        'Tổng doanh thu ghi nhận từ nền tảng ứng dụng tăng 300%',
+                    ),
+                ),
+                array(
+                    'src' => 'images/duan/logo3.png',
+                    'txt' => array(
+                        'Tổng số người cài đặt ứng dụng tăng trưởng 19x%',
+                        'Tỉ lệ gỡ ứng dụng trong vòng 7 ngày sau khi cài đặt giảm 71%',
+                        'Tỉ lệ người chơi thực hiện hành động chi trả trong quá trình sử dụng 34%',
+                    ),
+                ),
+            );
+            foreach ($data as $k => $v): ?>
+            <div>
+                <div class="uk-card uk-card-default uk-text-center home__section07__box4">
+                    <div class="home__section07__box4__img uk-flex uk-flex-middle uk-flex-center">
+                        <img src="<?= $v['src'] ?>" alt="">
+                    </div>
+                    <div class="uk-card-body home__section07__box4__body">
+                        <ul class="uk-list home__section07__box4__list">
+                            <?php foreach ($v['txt'] as $k1 => $v1): ?>
+                            <li><?= $v1 ?></li>
+                            <?php endforeach; ?>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </div>
@@ -255,9 +300,5 @@
 <!--ĐĂNG KÝ TƯ VẤN-->
 <?php require "template-parts/layouts/section02.php"; ?>
 <!--/ĐĂNG KÝ TƯ VẤN-->
-
-<!--LIÊN HỆ,HÌNH THỨC THANH TOÁN-->
-<?php require "template-parts/layouts/section01.php"; ?>
-<!--/LIÊN HỆ,HÌNH THỨC THANH TOÁN-->
 
 <?php require "template-parts/layouts/footer.php"; ?>
