@@ -17,4 +17,28 @@
       color: #000;
     }
   }
+  &__box2{
+    box-shadow: (2px 4px 4px rgba(0, 0, 0, 0.25));
+    &__overlay{
+      background: rgba(49, 49, 49, 0.8);
+    }
+    &__txt1{
+      color: $color-01;
+      @extend .fz-20;
+      line-height: 1;
+      margin-bottom: 20px;
+      font-family: $font-three-Medium;
+    }
+    &__txt2{
+      @extend .fz-20;
+      line-height: (22/20);
+      font-family: $font-three-Medium;
+    }
+    &__btn{
+      @extend .fz-20;
+      color: #ffffff;
+      border-color: $color-01 !important;
+      border-width: 2px !important;
+    }
+  }
 }
