@@ -22,7 +22,9 @@
                 </div>
             </div>
             <div class="uk-width-3-5@m">
-                <img src="images/MaskGroup1.png" alt="">
+                <div class="home__section05__box1__img">
+                    <img src="images/MaskGroup1.png" alt="">
+                </div>
             </div>
         </div>
     </div>

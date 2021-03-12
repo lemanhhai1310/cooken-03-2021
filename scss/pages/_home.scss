@@ -208,6 +208,13 @@
           line-height: 48px;
         }
       }
+      &__img{
+        animation: d .7s 3s forwards;
+        img{
+          animation: f 15s 3s infinite;
+          opacity: 1;
+        }
+      }
     }
   }
   &__section06{
