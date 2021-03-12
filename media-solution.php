@@ -11,9 +11,8 @@
                 <div class="home__section05__box1 media">
                     <h1 class="uk-h1 home__section05__box1__title uk-margin animation"><span>Media</span> Solution</h1>
                     <div class="home__section05__box1__box uk-margin">
-                        <p class="home__section05__box1__desc animation">Khai thác thị trường mới và nắm bắt thời cơ với Tiktok Marketing
-                            Tiktok là thị trường mới mẻ và còn rất nhiều tiềm năng phát triển . Nhanh tay nắm bắt cơ hội và bỏ xa doanh thu của các đối thủ cạnh tranh
-                            bằng cách hợp tác với Cooken Media - Agency quảng cáo chính thức của Tiktok ngay hôm nay !</p>
+                        <p class="home__section05__box1__desc animation">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                     </div>
                     <a href="" class="home__section05__box1__btn uk-border-rounded uk-button uk-button-secondary animation">Xem thêm</a>
                 </div>
@@ -28,99 +27,55 @@
 </div>
 <!--/Banner-->
 
-<div class="uk-section home__section06 uk-text-center uk-background-norepeat uk-background-top-center" data-src="images/bg2.png" uk-img>
-    <div class="uk-container">
-        <div class="uk-text-center uk-margin home__boxCommon mb-60-m">
-            <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">Tiktok - mảnh đất màu mỡ cho những kẻ cần cù</h2>
-        </div>
-        <div class="uk-child-width-1-4@m uk-grid-small uk-grid-20-m" uk-grid>
-            <?php
-            $data = array(
-                array(
-                    'src' => 'images/facebook/icon1.png',
-                    'txt1' => '70 triệu tài khoản',
-                    'txt2' => 'Hơn 2/3 dân số Việt Nam đang sử dụng Facebook, và con số này còn tiếp tục tăng',
-                ),
-                array(
-                    'src' => 'images/facebook/icon2.png',
-                    'txt1' => '82% độ tuổi',
-                    'txt2' => 'Hơn 2/3 dân số Việt Nam đang sử dụng Facebook, và con số này còn tiếp tục tăng',
-                ),
-                array(
-                    'src' => 'images/facebook/icon3.png',
-                    'txt1' => '320 phút mỗi ngày ',
-                    'txt2' => 'Hơn 2/3 dân số Việt Nam đang sử dụng Facebook, và con số này còn tiếp tục tăng',
-                ),
-                array(
-                    'src' => 'images/facebook/icon4.png',
-                    'txt1' => '64% mua hàng ',
-                    'txt2' => 'Hơn 2/3 dân số Việt Nam đang sử dụng Facebook, và con số này còn tiếp tục tăng',
-                ),
-            );
-            foreach ($data as $k => $v): ?>
-            <div>
-                <div class="uk-text-center">
-                    <div class="facebook__box1__img">
-                        <img src="<?= $v['src'] ?>" alt="">
-                    </div>
-                    <h5 class="uk-h5 facebook__box1__txt1"><?= $v['txt1'] ?></h5>
-                    <div class="facebook__box1__txt2"><?= $v['txt2'] ?></div>
-                </div>
-            </div>
-            <?php endforeach; ?>
-        </div>
-    </div>
-</div>
-
-<!--DỊCH VỤ-->
-<div class="uk-section home__section07" uk-height-viewport="offset-bottom: false">
+<div class="uk-section home__section06 uk-background-norepeat uk-background-top-center" data-src="images/bg2.png" uk-img>
     <div class="uk-container uk-container-small">
         <div class="uk-text-center uk-margin home__boxCommon mb-40-m">
-            <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">TIKTOK MARKETING</h2>
+            <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">MEDIA SOLUTION</h2>
         </div>
-        <ul class="uk-child-width-auto@m uk-margin mb-60-m uk-grid-small uk-grid-30-m uk-flex-center" uk-grid uk-switcher="connect: .my-class">
+        <ul class="uk-child-width-auto@m uk-margin mb-37-m uk-grid-small uk-grid-30-m uk-flex-center" uk-grid uk-switcher="connect: .my-class">
             <?php
             $data = array(
-                'TƯ VẤN CHIẾN LƯỢC',
-                'CHẠY QUẢNG CÁO',
-                'CHO THUÊ TÀI KHOẢN',
+                'CREATIVE MEDIA',
+                'BOOKING BÁO CHÍ',
+                'BOOKING KOLS',
+                'QUAY PHIM/CHỤP HÌNH',
             );
             foreach ($data as $k => $v): ?>
-            <li>
-                <a href="" class="home__section07__box1__btn uk-button uk-button-default"><?= $v ?></a>
-            </li>
+                <li>
+                    <a href="" class="home__section07__box1__btn uk-button uk-button-default"><?= $v ?></a>
+                </li>
             <?php endforeach; ?>
         </ul>
-        <ul class="uk-switcher mb-60-m my-class">
+        <ul class="uk-switcher my-class">
             <?php
             $data = array(
-                'Tư vấn chiến lược',
-                'CHẠY QUẢNG CÁO',
-                'CHO THUÊ TÀI KHOẢN',
+                'CREATIVE MEDIA',
+                'BOOKING BÁO CHÍ',
+                'BOOKING KOLS',
+                'QUAY PHIM/CHỤP HÌNH',
             );
             foreach ($data as $k => $v): ?>
                 <li>
                     <div class="uk-flex-middle uk-grid-small uk-grid-58-m" uk-grid uk-scrollspy="target: .animation; cls: uk-animation-slide-bottom-small; delay: 500; repeat: false;">
                         <div class="uk-width-expand">
-                            <img src="images/Frame-tiktok1.png" alt="">
+                            <img src="images/Frame-media.png" alt="">
                         </div>
                         <div class="uk-width-2-5@m animation">
-                            <h3 class="uk-h3 home__section07__box2__title uk-text-capitalize"><?= $v ?> Tiktok Marketing</h3>
+                            <h3 class="uk-h3 home__section07__box2__title uk-text-capitalize"><?= $v ?></h3>
                             <div class="mb-20 mb-32-m">
-                                <p class="home__section05__box1__desc uk-margin-remove">Chiến lược bài bản giúp bạn tiếp cận khách hàng mục tiêu chính xác và nhanh chóng </p>
+                                <p class="home__section05__box1__desc uk-margin-remove">Đội ngũ Cooken Media sáng tạo nhiệt tình và đầy kinh nghiệm, với những idea thú vị và phù hợp với yêu cầu của bạn sẽ tạo nên những sản phẩm giúp việc truyền tải thông tin cũng như thúc đẩy nhu cầu mua hàng</p>
                             </div>
-                            <ul class="uk-list uk-list-bullet home__section07__box2__list">
-                                <li>Tiếp cận người dùng khổng lồ của Facebook</li>
-                                <li>Giảm thiểu tối đa chi phí quảng cáo lãng phí </li>
-                                <li>Nâng cao nhận diện thương hiệu tối ưu doanh
-                                    số bán hàng</li>
-                            </ul>
                         </div>
                     </div>
                 </li>
             <?php endforeach; ?>
         </ul>
+    </div>
+</div>
 
+<!--DỊCH VỤ-->
+<div class="uk-section home__section07" uk-height-viewport="offset-bottom: true">
+    <div class="uk-container uk-container-small">
         <div class="uk-text-center uk-margin home__boxCommon mb-60-m">
             <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">QUY TRÌNH LÀM VIỆC</h2>
         </div>
