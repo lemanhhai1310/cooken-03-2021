@@ -27,6 +27,8 @@
                 <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
                     <div class="uk-navbar-left">
                         <a href="." class="uk-navbar-item uk-logo"><img src="images/Logo1.png" alt=""></a>
+                    </div>
+                    <div class="uk-navbar-right">
                         <ul class="uk-navbar-nav uk-visible@m">
                             <li class="uk-active"><a href="#">Về chúng tôi</a></li>
                             <li>
@@ -41,10 +43,9 @@
                                 </div>
                             </li>
                             <li><a href="#">Dự án</a></li>
-                            <li><a href="#">Blog</a></li>
+                            <li><a href="blog.php">Blog</a></li>
                             <li><a href="#">Liên hệ</a></li>
                         </ul>
-
                     </div>
                 </nav>
             </div>
