@@ -100,6 +100,12 @@
         <div class="uk-text-center uk-margin home__boxCommon mb-40-m">
             <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">DỰ ÁN</h2>
         </div>
+        <div class="uk-text-center">
+            <div class="uk-display-inline-block home__section07__box3 uk-border-pill">
+                <a href="" class="uk-button uk-button-default uk-border-pill">Việt Nam</a>
+                <a href="" class="uk-button uk-button-default uk-border-pill">Nước Ngoài</a>
+            </div>
+        </div>
     </div>
 </div>
 <!--/DỊCH VỤ-->
