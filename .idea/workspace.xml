@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e397632b-6e6c-438c-a762-a9464889c7b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blog/img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blog/img5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blog/img6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/nhchm1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/pages/_blog.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../base/scss/components/_keyframes.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/.idea/workspace.xml" afterDir="false" />
@@ -20,15 +13,13 @@
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_fontsize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_fontsize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/base/_uikits.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/base/_uikits.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/components/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_margin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_margin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_blog.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/layouts/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hopgiaygiare/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hopgiaygiare/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hopgiaygiare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hopgiaygiare/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/.idea/workspace.xml" afterDir="false" />
@@ -102,7 +93,7 @@
       <workItem from="1615380800998" duration="2511000" />
       <workItem from="1615422323943" duration="289000" />
       <workItem from="1615432116116" duration="4810000" />
-      <workItem from="1615512460505" duration="18921000" />
+      <workItem from="1615512460505" duration="20250000" />
     </task>
     <servers />
   </component>

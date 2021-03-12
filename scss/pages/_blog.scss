@@ -35,4 +35,38 @@
       }
     }
   }
+  &__subnav{
+    >li{
+      position: relative;
+      &:nth-child(n+2){
+        &:before{
+          content: "";
+          width: 4px;
+          height: 4px;
+          display: inline-block;
+          border-radius: 50%;
+          background: #595959;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          $x: 27px;
+          left: calc((#{$x} - 4px)/2);
+        }
+      }
+    }
+  }
+  &__btn{
+    line-height: 48px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 8px;
+    @extend .fz-16;
+    font-family: $font-primary-Bold;
+    color: #000;
+    &.uk-active{
+      border-color: $color-02;
+      background: $color-02;
+      color: #ffffff;
+    }
+  }
 }

@@ -33,7 +33,24 @@
 <!--/Banner-->
 
 <div class="blog__section1 uk-section uk-background-norepeat uk-background-top-center" data-src="images/bg2.png" uk-img>
-    <div class="uk-container uk-container-small">
+    <div class="uk-container">
+        <div class="uk-child-width-auto uk-grid-small uk-grid-41-m uk-flex-center mb-20 mb-56-m" uk-grid>
+            <?php
+            $data = array(
+                'Tất cả',
+                'Bài viết mới',
+                'Tư vấn',
+                'Tuyển dụng',
+            );
+            foreach ($data as $k => $v): ?>
+            <div>
+                <a href="" class="<?= ($k==0) ? 'uk-active' : '' ?> blog__btn uk-button uk-button-default uk-button-large"><?= $v ?></a>
+            </div>
+            <?php endforeach; ?>
+            <div class="uk-width-expand">
+
+            </div>
+        </div>
         <div class="uk-child-width-1-3@m mb-20 mb-40-m uk-grid-small uk-grid-20-m blog__grid" uk-grid>
             <?php
             $data = array(
@@ -81,7 +98,7 @@
                     <canvas width="720" height="582"></canvas>
                 </div>
                 <div>
-                    <div class="uk-flex-middle uk-child-width-auto uk-flex-between mb-10 mb-20-m" uk-grid>
+                    <div class="uk-flex-middle uk-child-width-auto uk-flex-between uk-grid-collapse mb-10 mb-20-m" uk-grid>
                         <div>
                             <div class="uk-child-width-auto uk-flex-middle uk-grid-12" uk-grid>
                                 <div>
@@ -96,7 +113,10 @@
                             </div>
                         </div>
                         <div>
-
+                            <ul class="uk-child-width-auto uk-grid-27 blog__subnav" uk-grid>
+                                <li><span class="blog__box1__name">13 ngày trước</span></li>
+                                <li><span class="blog__box1__name">1257 views</span></li>
+                            </ul>
                         </div>
                     </div>
                     <h5 class="uk-h5 blog__box1__title uk-margin-remove"><a href="">Lorem Ipsum is simply dummy text of the printi and typesetting industry. Lorem Ipsum has been</a></h5>
