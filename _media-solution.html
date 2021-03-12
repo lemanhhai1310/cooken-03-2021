@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Cooken - Media Solution</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <!--CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="style.css?v=1615537602">
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js/dist/defer_plus.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/js/uikit-icons.min.js"></script>
+    <script src="js/app.js?v=1615537602"></script>
+</head>
+<body class="isHome">
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+     attribution=setup_tool
+     page_id="2428809380682169"
+     logged_in_greeting="Bạn cần cắt HTML/CSS? Hãy chat ngay với chúng tôi"
+     logged_out_greeting="Bạn cần cắt HTML/CSS? Hãy chat ngay với chúng tôi">
+</div>
+<script>
+  defer(function() {
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v5.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  }, 5000);
+</script><section id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative">
+    <div uk-sticky="top: 100vh;animation: uk-animation-slide-top;">
+        <div class="header uk-background-default">
+            <div class="uk-container uk-container-small uk-padding-remove">
+                <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                    <div class="uk-navbar-left">
+                        <a href="." class="uk-navbar-item uk-logo"><img src="images/Logo1.png" alt=""></a>
+                        <ul class="uk-navbar-nav uk-visible@m">
+                            <li class="uk-active"><a href="#">Về chúng tôi</a></li>
+                            <li>
+                                <a href="#">Dịch vụ</a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="facebook-marketing.php">Facebook Marketing</a></li>
+                                        <li><a href="tiktok-marketing.php">Tiktok Marketing</a></li>
+                                        <li><a href="">Application Marketing</a></li>
+                                        <li><a href="media-solution.php">Media Solutions</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Dự án</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--Banner-->
+    <div class="home__section05 uk-section uk-background-norepeat uk-background-bottom-center" uk-height-viewport="offset-top: true;" data-src="images/Background1.png" uk-img>
+        <div class="uk-container uk-container-small">
+            <div class="uk-flex-middle uk-child-width-1-2@m uk-flex-right@m uk-position-relative" uk-grid uk-scrollspy="target: .animation; cls: uk-animation-slide-bottom-small; delay: 500; repeat: false;">
+                <div class="uk-width-1-2@m" uk-toggle="cls: uk-position-center-left; mode: media; media: @m">
+                    <div class="home__section05__box1 media">
+                        <h1 class="uk-h1 home__section05__box1__title uk-margin animation"><span>Media</span> Solution</h1>
+                        <div class="home__section05__box1__box uk-margin">
+                            <p class="home__section05__box1__desc animation">Khai thác thị trường mới và nắm bắt thời cơ với Tiktok Marketing
+                                Tiktok là thị trường mới mẻ và còn rất nhiều tiềm năng phát triển . Nhanh tay nắm bắt cơ hội và bỏ xa doanh thu của các đối thủ cạnh tranh
+                                bằng cách hợp tác với Cooken Media - Agency quảng cáo chính thức của Tiktok ngay hôm nay !</p>
+                        </div>
+                        <a href="" class="home__section05__box1__btn uk-border-rounded uk-button uk-button-secondary animation">Xem thêm</a>
+                    </div>
+                </div>
+                <div class="uk-width-1-2@m">
+                    <div class="home__section05__box1__img animation" uk-scrollspy-class="uk-animation-scale-up">
+                        <img src="images/Frame-media-solution.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Banner-->
+
+    <div class="uk-section home__section06 uk-text-center uk-background-norepeat uk-background-top-center" data-src="images/bg2.png" uk-img>
+        <div class="uk-container">
+            <div class="uk-text-center uk-margin home__boxCommon mb-60-m">
+                <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">Tiktok - mảnh đất màu mỡ cho những kẻ cần cù</h2>
+            </div>
+            <div class="uk-child-width-1-4@m uk-grid-small uk-grid-20-m" uk-grid>
+                <div>
+                    <div class="uk-text-center">
+                        <div class="facebook__box1__img">
+                            <img src="images/facebook/icon1.png" alt="">
+                        </div>
+                        <h5 class="uk-h5 facebook__box1__txt1">70 triệu tài khoản</h5>
+                        <div class="facebook__box1__txt2">Hơn 2/3 dân số Việt Nam đang sử dụng Facebook, và con số này còn tiếp tục tăng</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-text-center">
+                        <div class="facebook__box1__img">
+                            <img src="images/facebook/icon2.png" alt="">
+                        </div>
+                        <h5 class="uk-h5 facebook__box1__txt1">82% độ tuổi</h5>
+                        <div class="facebook__box1__txt2">Hơn 2/3 dân số Việt Nam đang sử dụng Facebook, và con số này còn tiếp tục tăng</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-text-center">
+                        <div class="facebook__box1__img">
+                            <img src="images/facebook/icon3.png" alt="">
+                        </div>
+                        <h5 class="uk-h5 facebook__box1__txt1">320 phút mỗi ngày </h5>
+                        <div class="facebook__box1__txt2">Hơn 2/3 dân số Việt Nam đang sử dụng Facebook, và con số này còn tiếp tục tăng</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-text-center">
+                        <div class="facebook__box1__img">
+                            <img src="images/facebook/icon4.png" alt="">
+                        </div>
+                        <h5 class="uk-h5 facebook__box1__txt1">64% mua hàng </h5>
+                        <div class="facebook__box1__txt2">Hơn 2/3 dân số Việt Nam đang sử dụng Facebook, và con số này còn tiếp tục tăng</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--DỊCH VỤ-->
+    <div class="uk-section home__section07" uk-height-viewport="offset-bottom: false">
+        <div class="uk-container uk-container-small">
+            <div class="uk-text-center uk-margin home__boxCommon mb-40-m">
+                <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">TIKTOK MARKETING</h2>
+            </div>
+            <ul class="uk-child-width-auto@m uk-margin mb-60-m uk-grid-small uk-grid-30-m uk-flex-center" uk-grid uk-switcher="connect: .my-class">
+                <li>
+                    <a href="" class="home__section07__box1__btn uk-button uk-button-default">TƯ VẤN CHIẾN LƯỢC</a>
+                </li>
+                <li>
+                    <a href="" class="home__section07__box1__btn uk-button uk-button-default">CHẠY QUẢNG CÁO</a>
+                </li>
+                <li>
+                    <a href="" class="home__section07__box1__btn uk-button uk-button-default">CHO THUÊ TÀI KHOẢN</a>
+                </li>
+            </ul>
+            <ul class="uk-switcher mb-60-m my-class">
+                <li>
+                    <div class="uk-flex-middle uk-grid-small uk-grid-58-m" uk-grid uk-scrollspy="target: .animation; cls: uk-animation-slide-bottom-small; delay: 500; repeat: false;">
+                        <div class="uk-width-expand">
+                            <img src="images/Frame-tiktok1.png" alt="">
+                        </div>
+                        <div class="uk-width-2-5@m animation">
+                            <h3 class="uk-h3 home__section07__box2__title uk-text-capitalize">Tư vấn chiến lược Tiktok Marketing</h3>
+                            <div class="mb-20 mb-32-m">
+                                <p class="home__section05__box1__desc uk-margin-remove">Chiến lược bài bản giúp bạn tiếp cận khách hàng mục tiêu chính xác và nhanh chóng </p>
+                            </div>
+                            <ul class="uk-list uk-list-bullet home__section07__box2__list">
+                                <li>Tiếp cận người dùng khổng lồ của Facebook</li>
+                                <li>Giảm thiểu tối đa chi phí quảng cáo lãng phí </li>
+                                <li>Nâng cao nhận diện thương hiệu tối ưu doanh
+                                    số bán hàng</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-flex-middle uk-grid-small uk-grid-58-m" uk-grid uk-scrollspy="target: .animation; cls: uk-animation-slide-bottom-small; delay: 500; repeat: false;">
+                        <div class="uk-width-expand">
+                            <img src="images/Frame-tiktok1.png" alt="">
+                        </div>
+                        <div class="uk-width-2-5@m animation">
+                            <h3 class="uk-h3 home__section07__box2__title uk-text-capitalize">CHẠY QUẢNG CÁO Tiktok Marketing</h3>
+                            <div class="mb-20 mb-32-m">
+                                <p class="home__section05__box1__desc uk-margin-remove">Chiến lược bài bản giúp bạn tiếp cận khách hàng mục tiêu chính xác và nhanh chóng </p>
+                            </div>
+                            <ul class="uk-list uk-list-bullet home__section07__box2__list">
+                                <li>Tiếp cận người dùng khổng lồ của Facebook</li>
+                                <li>Giảm thiểu tối đa chi phí quảng cáo lãng phí </li>
+                                <li>Nâng cao nhận diện thương hiệu tối ưu doanh
+                                    số bán hàng</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-flex-middle uk-grid-small uk-grid-58-m" uk-grid uk-scrollspy="target: .animation; cls: uk-animation-slide-bottom-small; delay: 500; repeat: false;">
+                        <div class="uk-width-expand">
+                            <img src="images/Frame-tiktok1.png" alt="">
+                        </div>
+                        <div class="uk-width-2-5@m animation">
+                            <h3 class="uk-h3 home__section07__box2__title uk-text-capitalize">CHO THUÊ TÀI KHOẢN Tiktok Marketing</h3>
+                            <div class="mb-20 mb-32-m">
+                                <p class="home__section05__box1__desc uk-margin-remove">Chiến lược bài bản giúp bạn tiếp cận khách hàng mục tiêu chính xác và nhanh chóng </p>
+                            </div>
+                            <ul class="uk-list uk-list-bullet home__section07__box2__list">
+                                <li>Tiếp cận người dùng khổng lồ của Facebook</li>
+                                <li>Giảm thiểu tối đa chi phí quảng cáo lãng phí </li>
+                                <li>Nâng cao nhận diện thương hiệu tối ưu doanh
+                                    số bán hàng</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="uk-text-center uk-margin home__boxCommon mb-60-m">
+                <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">QUY TRÌNH LÀM VIỆC</h2>
+            </div>
+            <div class="uk-child-width-1-2@m uk-grid-small uk-grid-21-m" uk-grid>
+                <div>
+                    <ul class="home__section04__box1" uk-accordion uk-scrollspy="target: .animation; cls: uk-animation-slide-bottom-small; delay: 500; repeat: false;">
+                        <li class="animation uk-open">
+                            <a class="uk-accordion-title home__section04__box1__title" href="#"><span class="home__section04__box1__title__txt">Tiếp nhận thông tin</span></a>
+                            <div class="uk-accordion-content home__section04__box1__content uk-background-muted uk-padding-small">
+                                <ul class="uk-list uk-list-bullet">
+                                    <li>Kinh nghiệm trong ngành quảng cáo, đã từng triển khai nhiều chiến dịch lớn cho các đối tác ở các lĩnh vực khác nhau: VTC, Golden Gate, MSB Bank, MB Bank, Funtap,....</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="animation ">
+                            <a class="uk-accordion-title home__section04__box1__title" href="#"><span class="home__section04__box1__title__txt">Tư vấn chiến lược</span></a>
+                            <div class="uk-accordion-content home__section04__box1__content uk-background-muted uk-padding-small">
+                                <ul class="uk-list uk-list-bullet">
+                                    <li>Kinh nghiệm trong ngành quảng cáo, đã từng triển khai nhiều chiến dịch lớn cho các đối tác ở các lĩnh vực khác nhau: VTC, Golden Gate, MSB Bank, MB Bank, Funtap,....</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="animation ">
+                            <a class="uk-accordion-title home__section04__box1__title" href="#"><span class="home__section04__box1__title__txt">Duyệt nội dung</span></a>
+                            <div class="uk-accordion-content home__section04__box1__content uk-background-muted uk-padding-small">
+                                <ul class="uk-list uk-list-bullet">
+                                    <li>Kinh nghiệm trong ngành quảng cáo, đã từng triển khai nhiều chiến dịch lớn cho các đối tác ở các lĩnh vực khác nhau: VTC, Golden Gate, MSB Bank, MB Bank, Funtap,....</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="animation ">
+                            <a class="uk-accordion-title home__section04__box1__title" href="#"><span class="home__section04__box1__title__txt">Triển khai quảng cáo</span></a>
+                            <div class="uk-accordion-content home__section04__box1__content uk-background-muted uk-padding-small">
+                                <ul class="uk-list uk-list-bullet">
+                                    <li>Kinh nghiệm trong ngành quảng cáo, đã từng triển khai nhiều chiến dịch lớn cho các đối tác ở các lĩnh vực khác nhau: VTC, Golden Gate, MSB Bank, MB Bank, Funtap,....</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="animation ">
+                            <a class="uk-accordion-title home__section04__box1__title" href="#"><span class="home__section04__box1__title__txt">Tối ưu chiến dịch</span></a>
+                            <div class="uk-accordion-content home__section04__box1__content uk-background-muted uk-padding-small">
+                                <ul class="uk-list uk-list-bullet">
+                                    <li>Kinh nghiệm trong ngành quảng cáo, đã từng triển khai nhiều chiến dịch lớn cho các đối tác ở các lĩnh vực khác nhau: VTC, Golden Gate, MSB Bank, MB Bank, Funtap,....</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="animation ">
+                            <a class="uk-accordion-title home__section04__box1__title" href="#"><span class="home__section04__box1__title__txt">Báo cáo kết quả</span></a>
+                            <div class="uk-accordion-content home__section04__box1__content uk-background-muted uk-padding-small">
+                                <ul class="uk-list uk-list-bullet">
+                                    <li>Kinh nghiệm trong ngành quảng cáo, đã từng triển khai nhiều chiến dịch lớn cho các đối tác ở các lĩnh vực khác nhau: VTC, Golden Gate, MSB Bank, MB Bank, Funtap,....</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!--
+    <li class="uk-open">
+        <a class="uk-accordion-title" href="#">Item 1</a>
+        <div class="uk-accordion-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </li>
+    -->
+                    </ul>
+                </div>
+                <div>
+                    <div class="uk-cover-container">
+                        <img src="images/facebook/shutterstock_4787329871.png" alt="" uk-cover>
+                        <canvas width="910" height="992"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/DỊCH VỤ-->
+
+    <!--LỢI THẾ CỦA COOKEN AGENCY-->
+    <div class="uk-section-xlarge home__section04 uk-background-norepeat uk-background-top-center" uk-height-viewport="offset-bottom: true" data-src="images/bg4.png" uk-img>
+        <div class="uk-container uk-container-small mb-30 mb-80-m">
+            <div class="uk-text-center uk-margin home__boxCommon mb-80-m">
+                <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">DỰ ÁN TIÊU BIỂU</h2>
+            </div>
+            <div class="" uk-scrollspy="cls: counter;">
+                <div id="counter" class="uk-child-width-1-2 uk-grid-small uk-grid-43-m" uk-grid uk-scrollspy="target: .home__section04__blog__box2; cls: uk-animation-fade; delay: 500">
+                    <div class="uk-width-auto@m">
+                        <div class="uk-text-center home__section04__blog__box2">
+                            <div class="home__section04__blog__box2__txt1"><span class="counter-value" data-count="999">0</span>+</div>
+                            <div class="home__section04__blog__box2__txt2">Khách hàng đã thành công</div>
+                        </div>
+                    </div>
+                    <div class="uk-width-auto@m">
+                        <div class="uk-text-center home__section04__blog__box2">
+                            <div class="home__section04__blog__box2__txt1"><span class="counter-value" data-count="3000">0</span>+</div>
+                            <div class="home__section04__blog__box2__txt2">Dự án triển khai</div>
+                        </div>
+                    </div>
+                    <div class="uk-width-auto@m">
+                        <div class="uk-text-center home__section04__blog__box2">
+                            <div class="home__section04__blog__box2__txt1"><span class="counter-value" data-count="20">0</span>+</div>
+                            <div class="home__section04__blog__box2__txt2">Nhân sự tài năng và tâm huyết</div>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand@m">
+                        <div class="uk-text-center home__section04__blog__box2">
+                            <div class="home__section04__blog__box2__txt1"><span class="counter-value" data-count="500">0</span> TRIỆU</div>
+                            <div class="home__section04__blog__box2__txt2">Ngân sách trung bình hàng ngày</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="uk-container">
+            <div class="" uk-slider="finite: true;autoplay: true;">
+
+                <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
+
+                    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-3@m uk-flex-middle uk-grid-small uk-grid-20-m" uk-grid>
+                        <li>
+                            <div class="uk-child-width-1-1 uk-grid-small uk-grid-40-m" uk-grid>
+                                <div>
+                                    <div class="uk-inline-clip uk-transition-toggle facebook__box2 uk-light" tabindex="0">
+                                        <div class="uk-cover-container uk-transition-scale-up uk-transition-opaque">
+                                            <img src="images/duan/img1.png" alt="" uk-cover>
+                                            <canvas width="1080" height="873"></canvas>
+                                        </div>
+                                        <div class="uk-transition-fade uk-position-cover facebook__box2__overlay uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+
+                                        </div>
+                                        <div class="uk-position-center uk-text-center">
+                                            <div class="uk-transition-slide-top-small mb-20 mb-27-m">
+                                                <div class="facebook__box2__txt1">Dự án 1</div>
+                                                <h4 class="uk-margin-remove facebook__box2__txt2">khởi đầu là cuộc thi Bay Cao Challenge</h4>
+                                            </div>
+                                            <div class="uk-transition-slide-bottom-small">
+                                                <a href="" class="facebook__box2__btn uk-button uk-button-default uk-border-pill">XEM CHI TIẾT</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-inline-clip uk-transition-toggle facebook__box2 uk-light" tabindex="0">
+                                        <div class="uk-cover-container uk-transition-scale-up uk-transition-opaque">
+                                            <img src="images/duan/img4.png" alt="" uk-cover>
+                                            <canvas width="1080" height="873"></canvas>
+                                        </div>
+                                        <div class="uk-transition-fade uk-position-cover facebook__box2__overlay uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+
+                                        </div>
+                                        <div class="uk-position-center uk-text-center">
+                                            <div class="uk-transition-slide-top-small mb-20 mb-27-m">
+                                                <div class="facebook__box2__txt1">Dự án 4</div>
+                                                <h4 class="uk-margin-remove facebook__box2__txt2">khởi đầu là cuộc thi Bay Cao Challenge</h4>
+                                            </div>
+                                            <div class="uk-transition-slide-bottom-small">
+                                                <a href="" class="facebook__box2__btn uk-button uk-button-default uk-border-pill">XEM CHI TIẾT</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-child-width-1-1 uk-grid-small uk-grid-40-m" uk-grid>
+                                <div>
+                                    <div class="uk-inline-clip uk-transition-toggle facebook__box2 uk-light" tabindex="0">
+                                        <div class="uk-cover-container uk-transition-scale-up uk-transition-opaque">
+                                            <img src="images/duan/img2.png" alt="" uk-cover>
+                                            <canvas width="1080" height="873"></canvas>
+                                        </div>
+                                        <div class="uk-transition-fade uk-position-cover facebook__box2__overlay uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+
+                                        </div>
+                                        <div class="uk-position-center uk-text-center">
+                                            <div class="uk-transition-slide-top-small mb-20 mb-27-m">
+                                                <div class="facebook__box2__txt1">Dự án 2</div>
+                                                <h4 class="uk-margin-remove facebook__box2__txt2">khởi đầu là cuộc thi Bay Cao Challenge</h4>
+                                            </div>
+                                            <div class="uk-transition-slide-bottom-small">
+                                                <a href="" class="facebook__box2__btn uk-button uk-button-default uk-border-pill">XEM CHI TIẾT</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-inline-clip uk-transition-toggle facebook__box2 uk-light" tabindex="0">
+                                        <div class="uk-cover-container uk-transition-scale-up uk-transition-opaque">
+                                            <img src="images/duan/img5.png" alt="" uk-cover>
+                                            <canvas width="1080" height="873"></canvas>
+                                        </div>
+                                        <div class="uk-transition-fade uk-position-cover facebook__box2__overlay uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+
+                                        </div>
+                                        <div class="uk-position-center uk-text-center">
+                                            <div class="uk-transition-slide-top-small mb-20 mb-27-m">
+                                                <div class="facebook__box2__txt1">Dự án 5</div>
+                                                <h4 class="uk-margin-remove facebook__box2__txt2">khởi đầu là cuộc thi Bay Cao Challenge</h4>
+                                            </div>
+                                            <div class="uk-transition-slide-bottom-small">
+                                                <a href="" class="facebook__box2__btn uk-button uk-button-default uk-border-pill">XEM CHI TIẾT</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-child-width-1-1 uk-grid-small uk-grid-40-m" uk-grid>
+                                <div>
+                                    <div class="uk-inline-clip uk-transition-toggle facebook__box2 uk-light" tabindex="0">
+                                        <div class="uk-cover-container uk-transition-scale-up uk-transition-opaque">
+                                            <img src="images/duan/img3.png" alt="" uk-cover>
+                                            <canvas width="1080" height="873"></canvas>
+                                        </div>
+                                        <div class="uk-transition-fade uk-position-cover facebook__box2__overlay uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+
+                                        </div>
+                                        <div class="uk-position-center uk-text-center">
+                                            <div class="uk-transition-slide-top-small mb-20 mb-27-m">
+                                                <div class="facebook__box2__txt1">Dự án 3</div>
+                                                <h4 class="uk-margin-remove facebook__box2__txt2">khởi đầu là cuộc thi Bay Cao Challenge</h4>
+                                            </div>
+                                            <div class="uk-transition-slide-bottom-small">
+                                                <a href="" class="facebook__box2__btn uk-button uk-button-default uk-border-pill">XEM CHI TIẾT</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-inline-clip uk-transition-toggle facebook__box2 uk-light" tabindex="0">
+                                        <div class="uk-cover-container uk-transition-scale-up uk-transition-opaque">
+                                            <img src="images/duan/img6.png" alt="" uk-cover>
+                                            <canvas width="1080" height="873"></canvas>
+                                        </div>
+                                        <div class="uk-transition-fade uk-position-cover facebook__box2__overlay uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+
+                                        </div>
+                                        <div class="uk-position-center uk-text-center">
+                                            <div class="uk-transition-slide-top-small mb-20 mb-27-m">
+                                                <div class="facebook__box2__txt1">Dự án 6</div>
+                                                <h4 class="uk-margin-remove facebook__box2__txt2">khởi đầu là cuộc thi Bay Cao Challenge</h4>
+                                            </div>
+                                            <div class="uk-transition-slide-bottom-small">
+                                                <a href="" class="facebook__box2__btn uk-button uk-button-default uk-border-pill">XEM CHI TIẾT</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-child-width-1-1 uk-grid-small uk-grid-40-m" uk-grid>
+                                <div>
+                                    <div class="uk-inline-clip uk-transition-toggle facebook__box2 uk-light" tabindex="0">
+                                        <div class="uk-cover-container uk-transition-scale-up uk-transition-opaque">
+                                            <img src="images/duan/img4.png" alt="" uk-cover>
+                                            <canvas width="1080" height="873"></canvas>
+                                        </div>
+                                        <div class="uk-transition-fade uk-position-cover facebook__box2__overlay uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+
+                                        </div>
+                                        <div class="uk-position-center uk-text-center">
+                                            <div class="uk-transition-slide-top-small mb-20 mb-27-m">
+                                                <div class="facebook__box2__txt1">Dự án 4</div>
+                                                <h4 class="uk-margin-remove facebook__box2__txt2">khởi đầu là cuộc thi Bay Cao Challenge</h4>
+                                            </div>
+                                            <div class="uk-transition-slide-bottom-small">
+                                                <a href="" class="facebook__box2__btn uk-button uk-button-default uk-border-pill">XEM CHI TIẾT</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-inline-clip uk-transition-toggle facebook__box2 uk-light" tabindex="0">
+                                        <div class="uk-cover-container uk-transition-scale-up uk-transition-opaque">
+                                            <img src="images/duan/img7.png" alt="" uk-cover>
+                                            <canvas width="1080" height="873"></canvas>
+                                        </div>
+                                        <div class="uk-transition-fade uk-position-cover facebook__box2__overlay uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+
+                                        </div>
+                                        <div class="uk-position-center uk-text-center">
+                                            <div class="uk-transition-slide-top-small mb-20 mb-27-m">
+                                                <div class="facebook__box2__txt1">Dự án 7</div>
+                                                <h4 class="uk-margin-remove facebook__box2__txt2">khởi đầu là cuộc thi Bay Cao Challenge</h4>
+                                            </div>
+                                            <div class="uk-transition-slide-bottom-small">
+                                                <a href="" class="facebook__box2__btn uk-button uk-button-default uk-border-pill">XEM CHI TIẾT</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-child-width-1-1 uk-grid-small uk-grid-40-m" uk-grid>
+                                <div>
+                                    <div class="uk-inline-clip uk-transition-toggle facebook__box2 uk-light" tabindex="0">
+                                        <div class="uk-cover-container uk-transition-scale-up uk-transition-opaque">
+                                            <img src="images/duan/img5.png" alt="" uk-cover>
+                                            <canvas width="1080" height="873"></canvas>
+                                        </div>
+                                        <div class="uk-transition-fade uk-position-cover facebook__box2__overlay uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+
+                                        </div>
+                                        <div class="uk-position-center uk-text-center">
+                                            <div class="uk-transition-slide-top-small mb-20 mb-27-m">
+                                                <div class="facebook__box2__txt1">Dự án 5</div>
+                                                <h4 class="uk-margin-remove facebook__box2__txt2">khởi đầu là cuộc thi Bay Cao Challenge</h4>
+                                            </div>
+                                            <div class="uk-transition-slide-bottom-small">
+                                                <a href="" class="facebook__box2__btn uk-button uk-button-default uk-border-pill">XEM CHI TIẾT</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-inline-clip uk-transition-toggle facebook__box2 uk-light" tabindex="0">
+                                        <div class="uk-cover-container uk-transition-scale-up uk-transition-opaque">
+                                            <img src="images/duan/img8.png" alt="" uk-cover>
+                                            <canvas width="1080" height="873"></canvas>
+                                        </div>
+                                        <div class="uk-transition-fade uk-position-cover facebook__box2__overlay uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+
+                                        </div>
+                                        <div class="uk-position-center uk-text-center">
+                                            <div class="uk-transition-slide-top-small mb-20 mb-27-m">
+                                                <div class="facebook__box2__txt1">Dự án 8</div>
+                                                <h4 class="uk-margin-remove facebook__box2__txt2">khởi đầu là cuộc thi Bay Cao Challenge</h4>
+                                            </div>
+                                            <div class="uk-transition-slide-bottom-small">
+                                                <a href="" class="facebook__box2__btn uk-button uk-button-default uk-border-pill">XEM CHI TIẾT</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-child-width-1-1 uk-grid-small uk-grid-40-m" uk-grid>
+                                <div>
+                                    <div class="uk-inline-clip uk-transition-toggle facebook__box2 uk-light" tabindex="0">
+                                        <div class="uk-cover-container uk-transition-scale-up uk-transition-opaque">
+                                            <img src="images/duan/img6.png" alt="" uk-cover>
+                                            <canvas width="1080" height="873"></canvas>
+                                        </div>
+                                        <div class="uk-transition-fade uk-position-cover facebook__box2__overlay uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+
+                                        </div>
+                                        <div class="uk-position-center uk-text-center">
+                                            <div class="uk-transition-slide-top-small mb-20 mb-27-m">
+                                                <div class="facebook__box2__txt1">Dự án 6</div>
+                                                <h4 class="uk-margin-remove facebook__box2__txt2">khởi đầu là cuộc thi Bay Cao Challenge</h4>
+                                            </div>
+                                            <div class="uk-transition-slide-bottom-small">
+                                                <a href="" class="facebook__box2__btn uk-button uk-button-default uk-border-pill">XEM CHI TIẾT</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-inline-clip uk-transition-toggle facebook__box2 uk-light" tabindex="0">
+                                        <div class="uk-cover-container uk-transition-scale-up uk-transition-opaque">
+                                            <img src="images/duan/img9.png" alt="" uk-cover>
+                                            <canvas width="1080" height="873"></canvas>
+                                        </div>
+                                        <div class="uk-transition-fade uk-position-cover facebook__box2__overlay uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+
+                                        </div>
+                                        <div class="uk-position-center uk-text-center">
+                                            <div class="uk-transition-slide-top-small mb-20 mb-27-m">
+                                                <div class="facebook__box2__txt1">Dự án 9</div>
+                                                <h4 class="uk-margin-remove facebook__box2__txt2">khởi đầu là cuộc thi Bay Cao Challenge</h4>
+                                            </div>
+                                            <div class="uk-transition-slide-bottom-small">
+                                                <a href="" class="facebook__box2__btn uk-button uk-button-default uk-border-pill">XEM CHI TIẾT</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!--
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    -->
+
+                </div>
+
+                <ul class="home__dot1 uk-slider-nav uk-dotnav uk-flex-center uk-margin mt-37-m"></ul>
+
+            </div>
+        </div>
+    </div>
+    <!--/LỢI THẾ CỦA COOKEN AGENCY-->
+
+    <!--ĐĂNG KÝ TƯ VẤN-->
+    <div class="home__section02 uk-section" uk-height-viewport="offset-bottom: true">
+        <div class="uk-container uk-container-small">
+            <div class="uk-text-center uk-margin home__boxCommon mb-40-m">
+                <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">ĐĂNG KÝ TƯ VẤN</h2>
+                <p class="uk-margin-remove home__boxCommon__desc">Hãy để Cooken Agency đồng hành cùng thành công của bạn</p>
+            </div>
+            <div class="uk-flex-center mb-30 mb-60-m" uk-grid uk-scrollspy="target: .animation; cls: uk-animation-slide-bottom-small; delay: 500; repeat: false;">
+                <div class="uk-width-3-5@m">
+                    <form class="uk-grid-small uk-grid-20-m uk-margin mb-40-m" uk-grid>
+                        <div class="uk-width-1-1">
+                            <input class="uk-input uk-border-rounded home__section02__input" type="text" placeholder="Email">
+                        </div>
+                        <div class="uk-width-1-1">
+                            <input class="uk-input uk-border-rounded home__section02__input" type="text" placeholder="Tên">
+                        </div>
+                        <div class="uk-width-1-2">
+                            <input class="uk-input uk-border-rounded home__section02__input" type="text" placeholder="Số điện thoại">
+                        </div>
+                        <div class="uk-width-1-2">
+                            <input class="uk-input uk-border-rounded home__section02__input" type="text" placeholder="Lĩnh vực">
+                        </div>
+                        <div class="uk-width-1-1">
+                            <input class="uk-input uk-border-rounded home__section02__input" type="text" placeholder="Ngân sách dự kiến">
+                        </div>
+                    </form>
+                    <div class="uk-text-center">
+                        <button type="button" class="animation home__section02__btn uk-button uk-button-secondary uk-border-pill">NHẬN ĐĂNG KÝ TƯ VẤN</button>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-text-center uk-margin home__boxCommon mb-80-m">
+                <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">ĐÁNH GIÁ CỦA  KHÁCH HÀNG</h2>
+            </div>
+            <div class="" uk-slider="finite: true;autoplay: true;">
+
+                <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
+
+                    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-3@m uk-flex-middle" uk-grid>
+                        <li>
+                            <div class="uk-text-center mb-10 mb-22-m">
+                                <div class="uk-cover-container uk-border-circle uk-display-inline-block">
+                                    <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover>
+                                    <canvas width="129" height="129"></canvas>
+                                </div>
+                            </div>
+                            <div class="uk-text-center">
+                                <div class="mb-10 mb-22-m">
+                                    <h5 class="uk-h5 mb-11 home__section02__boxKh__name">Trần Ngọc</h5>
+                                    <div class="home__section02__boxKh__txt">Kiến trúc sư</div>
+                                </div>
+                                <div class="home__section02__boxKh__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center mb-10 mb-22-m">
+                                <div class="uk-cover-container uk-border-circle uk-display-inline-block">
+                                    <img src="https://scontent.fhan1-1.fna.fbcdn.net/v/t1.0-1/p200x200/124991051_10223379123683629_5212533844007278633_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=7206a8&_nc_ohc=5Bsqeug0aAUAX9Z1R9G&_nc_ht=scontent.fhan1-1.fna&tp=6&oh=84540be8f3087f3b0ca5828c55323205&oe=6070E5C0" alt="" uk-cover>
+                                    <canvas width="129" height="129"></canvas>
+                                </div>
+                            </div>
+                            <div class="uk-text-center">
+                                <div class="mb-10 mb-22-m">
+                                    <h5 class="uk-h5 mb-11 home__section02__boxKh__name">Trần Ngọc</h5>
+                                    <div class="home__section02__boxKh__txt">Kiến trúc sư</div>
+                                </div>
+                                <div class="home__section02__boxKh__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center mb-10 mb-22-m">
+                                <div class="uk-cover-container uk-border-circle uk-display-inline-block">
+                                    <img src="https://scontent.fhan1-1.fna.fbcdn.net/v/t1.0-1/p200x200/107619296_673227766871034_2572365159958337456_o.jpg?_nc_cat=111&ccb=1-3&_nc_sid=7206a8&_nc_ohc=7uR_UCgT9T0AX_0YJAh&_nc_ht=scontent.fhan1-1.fna&tp=6&oh=814c56a09a2e2cd65c7f1067cddf4cde&oe=60704655" alt="" uk-cover>
+                                    <canvas width="129" height="129"></canvas>
+                                </div>
+                            </div>
+                            <div class="uk-text-center">
+                                <div class="mb-10 mb-22-m">
+                                    <h5 class="uk-h5 mb-11 home__section02__boxKh__name">Trần Ngọc</h5>
+                                    <div class="home__section02__boxKh__txt">Kiến trúc sư</div>
+                                </div>
+                                <div class="home__section02__boxKh__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center mb-10 mb-22-m">
+                                <div class="uk-cover-container uk-border-circle uk-display-inline-block">
+                                    <img src="images/lienhe/luxstray-6.png" alt="" uk-cover>
+                                    <canvas width="129" height="129"></canvas>
+                                </div>
+                            </div>
+                            <div class="uk-text-center">
+                                <div class="mb-10 mb-22-m">
+                                    <h5 class="uk-h5 mb-11 home__section02__boxKh__name">Trần Ngọc</h5>
+                                    <div class="home__section02__boxKh__txt">Kiến trúc sư</div>
+                                </div>
+                                <div class="home__section02__boxKh__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center mb-10 mb-22-m">
+                                <div class="uk-cover-container uk-border-circle uk-display-inline-block">
+                                    <img src="images/lienhe/Logo_MB_new.png" alt="" uk-cover>
+                                    <canvas width="129" height="129"></canvas>
+                                </div>
+                            </div>
+                            <div class="uk-text-center">
+                                <div class="mb-10 mb-22-m">
+                                    <h5 class="uk-h5 mb-11 home__section02__boxKh__name">Trần Ngọc</h5>
+                                    <div class="home__section02__boxKh__txt">Kiến trúc sư</div>
+                                </div>
+                                <div class="home__section02__boxKh__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center mb-10 mb-22-m">
+                                <div class="uk-cover-container uk-border-circle uk-display-inline-block">
+                                    <img src="images/lienhe/logo-cong-ty-funtap.png" alt="" uk-cover>
+                                    <canvas width="129" height="129"></canvas>
+                                </div>
+                            </div>
+                            <div class="uk-text-center">
+                                <div class="mb-10 mb-22-m">
+                                    <h5 class="uk-h5 mb-11 home__section02__boxKh__name">Trần Ngọc</h5>
+                                    <div class="home__section02__boxKh__txt">Kiến trúc sư</div>
+                                </div>
+                                <div class="home__section02__boxKh__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center mb-10 mb-22-m">
+                                <div class="uk-cover-container uk-border-circle uk-display-inline-block">
+                                    <img src="images/lienhe/download.png" alt="" uk-cover>
+                                    <canvas width="129" height="129"></canvas>
+                                </div>
+                            </div>
+                            <div class="uk-text-center">
+                                <div class="mb-10 mb-22-m">
+                                    <h5 class="uk-h5 mb-11 home__section02__boxKh__name">Trần Ngọc</h5>
+                                    <div class="home__section02__boxKh__txt">Kiến trúc sư</div>
+                                </div>
+                                <div class="home__section02__boxKh__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center mb-10 mb-22-m">
+                                <div class="uk-cover-container uk-border-circle uk-display-inline-block">
+                                    <img src="images/lienhe/luxstray-6.png" alt="" uk-cover>
+                                    <canvas width="129" height="129"></canvas>
+                                </div>
+                            </div>
+                            <div class="uk-text-center">
+                                <div class="mb-10 mb-22-m">
+                                    <h5 class="uk-h5 mb-11 home__section02__boxKh__name">Trần Ngọc</h5>
+                                    <div class="home__section02__boxKh__txt">Kiến trúc sư</div>
+                                </div>
+                                <div class="home__section02__boxKh__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!--
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    -->
+
+                </div>
+
+                <ul class="home__dot1 uk-slider-nav uk-dotnav uk-flex-center uk-margin mt-37-m"></ul>
+
+            </div>
+        </div>
+    </div><!--/ĐĂNG KÝ TƯ VẤN-->
+
+    <!--LIÊN HỆ,HÌNH THỨC THANH TOÁN-->
+    <div class="home__section01 uk-section uk-background-norepeat uk-background-top-center" uk-height-viewport="offset-bottom: true" data-src="images/bg1.png" uk-img>
+        <div class="uk-container uk-container-small">
+            <div class="uk-text-center uk-margin home__boxCommon mb-80-m">
+                <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">LIÊN HỆ</h2>
+            </div>
+            <div class="uk-child-width-1-3@m uk-grid-73-m uk-margin mb-76-m" uk-grid>
+                <div>
+                    <div class="uk-text-center home__section01__box1">
+                        <div class="uk-margin mb-44-m home__section01__box1__img">
+                            <img class="uk-responsive-height" src="images/lienhe/FAQ.png" alt="">
+                        </div>
+                        <div><span class="home__section01__box1__txt">Tất cả những gì bạn cần biết về Cooken Agency và cách chúng tôi giúp khách hàng phát triển</span></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-text-center home__section01__box1">
+                        <div class="uk-margin mb-44-m home__section01__box1__img">
+                            <img class="uk-responsive-height" src="images/lienhe/Fb&Telegram.png" alt="">
+                        </div>
+                        <div class="uk-flex-middle uk-flex-center uk-child-width-auto uk-grid-8 uk-margin-small mb-17-m" uk-grid>
+                            <div>
+                                <img src="images/lienhe/iconfinder_telegram_3069742-copy.png" alt="">
+                            </div>
+                            <div>
+                                <span class="home__section01__box1__txt">@cookensupport</span>
+                            </div>
+                        </div>
+                        <div class="uk-flex-middle uk-flex-center uk-child-width-auto uk-grid-8 uk-margin-remove" uk-grid>
+                            <div>
+                                <img src="images/lienhe/iconfinder_facebook_834722.png" alt="">
+                            </div>
+                            <div>
+                                <span class="home__section01__box1__txt">@cookenmediaagency</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-text-center home__section01__box1">
+                        <div class="uk-margin mb-44-m home__section01__box1__img">
+                            <img class="uk-responsive-height" src="images/lienhe/Chat.png" alt="">
+                        </div>
+                        <div><span class="home__section01__box1__txt">Hỗ trợ trực tuyến 24/7 <br> 365 ngày/năm</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-margin-medium mb-120-m" uk-slider="finite: true;autoplay: true;">
+
+                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-flex-middle" uk-grid>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/lienhe/Logo_MB_new.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/lienhe/logo-cong-ty-funtap.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/lienhe/download.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/lienhe/luxstray-6.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/lienhe/Logo_MB_new.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/lienhe/logo-cong-ty-funtap.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/lienhe/download.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/lienhe/luxstray-6.png" alt="">
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!--
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    -->
+
+                </div>
+
+                <ul class="home__dot1 uk-slider-nav uk-dotnav uk-flex-center uk-margin mt-37-m"></ul>
+
+            </div>
+
+            <div class="uk-text-center uk-margin home__boxCommon mb-64-m">
+                <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">HÌNH THỨC THANH TOÁN</h2>
+            </div>
+            <div uk-slider="finite: true;autoplay: true;">
+
+                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-flex-middle" uk-grid>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/thanhtoan/paysafecard-1.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/thanhtoan/visaMasterCard-1.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/thanhtoan/webmoney-1.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/thanhtoan/yandexMoney-1.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/thanhtoan/paysafecard-1.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/thanhtoan/visaMasterCard-1.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/thanhtoan/webmoney-1.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/thanhtoan/yandexMoney-1.png" alt="">
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!--
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    -->
+
+                </div>
+
+                <ul class="home__dot1 uk-slider-nav uk-dotnav uk-flex-center uk-margin mt-60-m"></ul>
+
+            </div>
+        </div>
+    </div><!--/LIÊN HỆ,HÌNH THỨC THANH TOÁN-->
+    <footer class="footer">
+        <div class="uk-section-small footer__top uk-light">
+            <div class="uk-container uk-container-small">
+                <div class="uk-child-width-1-4@m uk-margin footer__top__grid1" uk-grid>
+                    <div>
+                        <h5 class="uk-h5 footer__top__title">Về chúng tôi</h5>
+                        <h5 class="uk-h5 footer__top__title">Dự án</h5>
+                    </div>
+                    <div>
+                        <h5 class="uk-h5 footer__top__title">Dịch vụ</h5>
+                        <ul class="uk-list footer__top__menu">
+                            <li><a href="facebook-marketing.php">Facebook Marketing</a></li>
+                            <li><a href="tiktok-marketing.php">Tiktok Marketing</a></li>
+                            <li><a href="">Application Marketing</a></li>
+                            <li><a href="media-solution.php">Media Solutions</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5 class="uk-h5 footer__top__title">Liên hệ</h5>
+                        <ul class="uk-list footer__top__menu">
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Live Chat</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5 class="uk-h5 footer__top__title">Chính sách</h5>
+                        <ul class="uk-list footer__top__menu">
+                            <li><a href="">Quy trình làm việc</a></li>
+                            <li><a href="">Chính sách thanh toán</a></li>
+                        </ul>
+                        <div class="uk-child-width-auto uk-grid-small uk-grid-20-m uk-flex-middle" uk-grid>
+                            <div>
+                                <a href=""><img src="images/social/fb.png" alt=""></a>
+                            </div>
+                            <div>
+                                <a href=""><img src="images/social/telegram.png" alt=""></a>
+                            </div>
+                            <div>
+                                <a href=""><img src="images/social/in.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__top__box1">
+                    <div>© 2021 Cassandera Capital LTD</div>
+                    <div>Giấy phép số 8723/GP-TTĐT - Sở thông tin và truyền thông TP. Hồ Chí Minh - Cấp ngày 02/02/2015. Ghi rõ nguồn khi bạn phát hành lại thông tin từ website này.</div>
+                </div>
+            </div>
+        </div>
+        <div class="uk-section-xsmall footer__bottom">
+            <div class="uk-container uk-container-small">
+                <div class="uk-child-width-auto uk-grid-small uk-grid-20-m uk-flex-center" uk-grid>
+                    <div>
+                        <a href="" class="uk-active footer__bottom__btn uk-button uk-button-secondary uk-border-rounded">Tư vấn dịch vụ</a>
+                    </div>
+                    <div>
+                        <a href="" class=" footer__bottom__btn uk-button uk-button-secondary uk-border-rounded">Dự án thành công</a>
+                    </div>
+                    <div>
+                        <a href="" class=" footer__bottom__btn uk-button uk-button-secondary uk-border-rounded">Gọi lại cho tôi</a>
+                    </div>
+                    <div>
+                        <a href="" class=" footer__bottom__btn uk-button uk-button-secondary uk-border-rounded">Khách hàng tiêu biểu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+</body>
+</html>

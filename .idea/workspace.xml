@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e397632b-6e6c-438c-a762-a9464889c7b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_tiktok-marketing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/pages/_tiktok-marketing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiktok-marketing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_media-solution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media-solution.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/pages/_media-solution.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../base/scss/components/_keyframes.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/.idea/workspace.xml" afterDir="false" />
@@ -95,7 +95,7 @@
       <workItem from="1615380800998" duration="2511000" />
       <workItem from="1615422323943" duration="289000" />
       <workItem from="1615432116116" duration="4810000" />
-      <workItem from="1615512460505" duration="13199000" />
+      <workItem from="1615512460505" duration="13772000" />
     </task>
     <servers />
   </component>
