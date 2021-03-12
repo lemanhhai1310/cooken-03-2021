@@ -1,0 +1,20 @@
+.facebook{
+  &__box1{
+    &__img{
+      margin-bottom: 20px;
+    }
+    &__txt1{
+      margin: 0 !important;
+      margin-bottom: 12px !important;
+      color: $color-01;
+      @extend .fz-20;
+      line-height: (28/20);
+      font-family: $font-primary-SemiBold;
+    }
+    &__txt2{
+      @extend .fz-16;
+      line-height: (20/16);
+      color: #000;
+    }
+  }
+}

@@ -35,9 +35,40 @@
             <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">Facebook - mỏ vàng cho những người kinh doanh thông thái</h2>
         </div>
         <div class="uk-child-width-1-4@m uk-grid-small uk-grid-20-m" uk-grid>
+            <?php
+            $data = array(
+                array(
+                    'src' => 'images/facebook/icon1.png',
+                    'txt1' => '70 triệu tài khoản',
+                    'txt2' => 'Hơn 2/3 dân số Việt Nam đang sử dụng Facebook, và con số này còn tiếp tục tăng',
+                ),
+                array(
+                    'src' => 'images/facebook/icon2.png',
+                    'txt1' => '82% độ tuổi',
+                    'txt2' => 'Hơn 2/3 dân số Việt Nam đang sử dụng Facebook, và con số này còn tiếp tục tăng',
+                ),
+                array(
+                    'src' => 'images/facebook/icon3.png',
+                    'txt1' => '320 phút mỗi ngày ',
+                    'txt2' => 'Hơn 2/3 dân số Việt Nam đang sử dụng Facebook, và con số này còn tiếp tục tăng',
+                ),
+                array(
+                    'src' => 'images/facebook/icon4.png',
+                    'txt1' => '64% mua hàng ',
+                    'txt2' => 'Hơn 2/3 dân số Việt Nam đang sử dụng Facebook, và con số này còn tiếp tục tăng',
+                ),
+            );
+            foreach ($data as $k => $v): ?>
             <div>
-
+                <div class="uk-text-center">
+                    <div class="facebook__box1__img">
+                        <img src="<?= $v['src'] ?>" alt="">
+                    </div>
+                    <h5 class="uk-h5 facebook__box1__txt1"><?= $v['txt1'] ?></h5>
+                    <div class="facebook__box1__txt2"><?= $v['txt2'] ?></div>
+                </div>
             </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </div>
@@ -46,15 +77,14 @@
 <div class="uk-section home__section07" uk-height-viewport="offset-bottom: false">
     <div class="uk-container uk-container-small">
         <div class="uk-text-center uk-margin home__boxCommon mb-40-m">
-            <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">DỊCH VỤ</h2>
+            <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">FACEBOOK MARKETING</h2>
         </div>
         <ul class="uk-child-width-auto@m uk-margin mb-60-m uk-grid-small uk-grid-30-m uk-flex-center" uk-grid uk-switcher="connect: .my-class">
             <?php
             $data = array(
-                'Facebook Marketing',
-                'TIKTOK MARKETING',
-                'APPLICATION MARKETING',
-                'MEDIA SOLUTION',
+                'TƯ VẤN CHIẾN LƯỢC',
+                'CHẠY QUẢNG CÁO',
+                'CHO THUÊ TÀI KHOẢN',
             );
             foreach ($data as $k => $v): ?>
             <li>
@@ -65,16 +95,15 @@
         <ul class="uk-switcher mb-60-m my-class">
             <?php
             $data = array(
-                'Facebook Marketing',
-                'TIKTOK MARKETING',
-                'APPLICATION MARKETING',
-                'MEDIA SOLUTION',
+                'Tư vấn chiến lược Facebook Marketing',
+                'CHẠY QUẢNG CÁO',
+                'CHO THUÊ TÀI KHOẢN',
             );
             foreach ($data as $k => $v): ?>
                 <li>
                     <div class="uk-flex-middle uk-grid-small uk-grid-58-m" uk-grid uk-scrollspy="target: .animation; cls: uk-animation-slide-bottom-small; delay: 500; repeat: false;">
                         <div class="uk-width-expand">
-                            <img src="images/anhminhhoa1.png" alt="">
+                            <img src="images/facebook/Frame.png" alt="">
                         </div>
                         <div class="uk-width-2-5@m animation">
                             <h3 class="uk-h3 home__section07__box2__title uk-text-capitalize"><?= $v ?></h3>
