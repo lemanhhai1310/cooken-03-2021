@@ -59,6 +59,11 @@
   &__section02{
     padding-top: 20px;
     padding-bottom: 20px;
+
+    background-image: url(images/bg2.png),url(images/anhchim3.png);
+    background-position: 50% 0,50% 729px;
+    background-repeat: no-repeat;
+
     @include media-breakpoint-up('m'){
       padding-top: 31px !important;
       padding-bottom: 55px !important;
@@ -81,6 +86,27 @@
       background: $color-01;
       @include media-breakpoint-up('m'){
         line-height: 48px !important;
+      }
+    }
+    &__boxKh{
+      &__name{
+        line-height: 1;
+        @extend .fz-20;
+        color: $color-06;
+        text-transform: uppercase;
+        font-family: $font-three-Medium;
+      }
+      &__txt{
+        @extend .fz-16;
+        line-height: (20/16);
+        color: $color-06;
+        font-family: $font-three;
+      }
+      &__desc{
+        @extend .fz-16;
+        line-height: (28/16);
+        color: $color-06;
+        font-family: $font-three-Light;
       }
     }
   }

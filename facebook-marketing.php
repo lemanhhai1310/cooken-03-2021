@@ -31,18 +31,14 @@
 
 <div class="uk-section home__section06 uk-text-center uk-background-norepeat uk-background-top-center" data-src="images/bg2.png" uk-img>
     <div class="uk-container uk-container-small">
-        <div class="uk-text-center uk-margin home__boxCommon mb-28-m">
-            <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">GIỚI THIỆU</h2>
+        <div class="uk-text-center uk-margin home__boxCommon mb-60-m">
+            <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">Facebook - mỏ vàng cho những người kinh doanh thông thái</h2>
         </div>
-        <div class="uk-flex-center uk-margin mb-80-m" uk-grid>
-            <div class="uk-width-3-5@m">
-                <div class="uk-text-center">
-                    <p class="home__section05__box1__desc">Với chất lượng dịch vụ vượt trội, phục vụ hơn 50+ khách hàng mỗi ngày với tổng ngân sách hàng tỷ đồng, đội ngũ chăm sóc khách hàng thường trực cùng chính sách thanh toán hấp dẫn, chúng tôi tự tin mang đến cho bạn những giải pháp tốt nhất với mức độ hài lòng cao nhất.</p>
-                    <p class="home__section05__box1__desc">Hãy đồng hành cùng Cooken Agency - và chúng ta sẽ cùng nhau phát triển!</p>
-                </div>
+        <div class="uk-child-width-1-4@m uk-grid-small uk-grid-20-m" uk-grid>
+            <div>
+
             </div>
         </div>
-        <div><a href="" class="uk-button home__section06__btn uk-border-rounded uk-button-default">LIÊN HỆ NGAY</a></div>
     </div>
 </div>
 

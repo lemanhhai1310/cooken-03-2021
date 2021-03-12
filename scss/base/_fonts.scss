@@ -12,6 +12,32 @@
 }
 /**
  * --------------------------------------------------------------------
+ * Roboto
+ * --------------------------------------------------------------------
+ */
+@font-face{
+  font-family:'Roboto Regular';
+  font-display: auto;
+  src:local('Roboto Regular'), url('fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Roboto Light';
+  font-display: auto;
+  src:local('Roboto Light'), url('fonts/Roboto-Light_0.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Roboto Medium';
+  font-display: auto;
+  src:local('Roboto Medium'), url('fonts/Roboto-Medium_0.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+/**
+ * --------------------------------------------------------------------
  * Raleway
  * --------------------------------------------------------------------
  */

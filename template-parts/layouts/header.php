@@ -26,10 +26,20 @@
             <div class="uk-container uk-container-small uk-padding-remove">
                 <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
                     <div class="uk-navbar-left">
-                        <a href="" class="uk-navbar-item uk-logo"><img src="images/Logo1.png" alt=""></a>
+                        <a href="." class="uk-navbar-item uk-logo"><img src="images/Logo1.png" alt=""></a>
                         <ul class="uk-navbar-nav uk-visible@m">
                             <li class="uk-active"><a href="#">Về chúng tôi</a></li>
-                            <li><a href="#">Dịch vụ</a></li>
+                            <li>
+                                <a href="#">Dịch vụ</a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="facebook-marketing.php">Facebook Marketing</a></li>
+                                        <li><a href="">Tiktok Marketing</a></li>
+                                        <li><a href="">Application Marketing</a></li>
+                                        <li><a href="">Media Solutions</a></li>
+                                    </ul>
+                                </div>
+                            </li>
                             <li><a href="#">Dự án</a></li>
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Liên hệ</a></li>
