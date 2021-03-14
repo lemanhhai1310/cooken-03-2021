@@ -30,7 +30,7 @@
                     </div>
                     <div class="uk-navbar-right">
                         <ul class="uk-navbar-nav uk-visible@m">
-                            <li class="uk-active"><a href="#">Về chúng tôi</a></li>
+                            <li class="uk-active"><a href="about-us.php">Về chúng tôi</a></li>
                             <li>
                                 <a href="#">Dịch vụ</a>
                                 <div class="uk-navbar-dropdown">
