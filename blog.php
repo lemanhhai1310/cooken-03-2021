@@ -56,42 +56,55 @@
         </div>
         <div class="uk-child-width-1-3@m mb-20 mb-40-m uk-grid-small uk-grid-20-m blog__grid" uk-grid>
             <?php
+            function to_slug($str) {
+                $str = trim(mb_strtolower($str));
+                $str = preg_replace('/(à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ)/', 'a', $str);
+                $str = preg_replace('/(è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ)/', 'e', $str);
+                $str = preg_replace('/(ì|í|ị|ỉ|ĩ)/', 'i', $str);
+                $str = preg_replace('/(ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ)/', 'o', $str);
+                $str = preg_replace('/(ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ)/', 'u', $str);
+                $str = preg_replace('/(ỳ|ý|ỵ|ỷ|ỹ)/', 'y', $str);
+                $str = preg_replace('/(đ)/', 'd', $str);
+                $str = preg_replace('/[^a-z0-9-\s]/', '', $str);
+                $str = preg_replace('/([\s]+)/', '-', $str);
+                return $str;
+            }
             $data = array(
                 array(
                     'src' => 'images/blog/img1.png',
-                    'txt1' => '',
+                    'txt1' => 'Bài Viết Mới',
                 ),
                 array(
                     'src' => 'images/blog/img2.png',
-                    'txt1' => '',
+                    'txt1' => 'Tư Vấn',
                 ),
                 array(
                     'src' => 'images/blog/img3.png',
-                    'txt1' => '',
+                    'txt1' => 'Tuyển Dụng',
                 ),
                 array(
                     'src' => 'images/blog/img4.png',
-                    'txt1' => '',
+                    'txt1' => 'Bài Viết Mới',
                 ),
                 array(
                     'src' => 'images/blog/img5.png',
-                    'txt1' => '',
+                    'txt1' => 'Tư Vấn',
                 ),
                 array(
                     'src' => 'images/blog/img6.png',
-                    'txt1' => '',
+                    'txt1' => 'Tuyển Dụng',
                 ),
                 array(
                     'src' => 'images/blog/img1.png',
-                    'txt1' => '',
+                    'txt1' => 'Bài Viết Mới',
                 ),
                 array(
                     'src' => 'images/blog/img2.png',
-                    'txt1' => '',
+                    'txt1' => 'Tư Vấn',
                 ),
                 array(
                     'src' => 'images/blog/img3.png',
-                    'txt1' => '',
+                    'txt1' => 'Tuyển Dụng',
                 ),
             );
             foreach ($data as $k => $v): ?>
@@ -99,6 +112,7 @@
                 <div class="uk-cover-container blog__box1__bg">
                     <img src="<?= $v['src'] ?>" alt="" uk-cover>
                     <canvas width="720" height="582"></canvas>
+                    <div class="uk-display-inline-block uk-position-bottom-right blog__box1__catalog <?= to_slug($v['txt1']) ?>"><span><?= $v['txt1'] ?></span></div>
                 </div>
                 <div>
                     <div class="uk-flex-middle uk-child-width-auto uk-flex-between uk-grid-collapse mb-10 mb-20-m" uk-grid>
