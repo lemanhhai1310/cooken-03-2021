@@ -1,0 +1,15 @@
+.blog-catalogy{
+  &__section1{
+    background-image: url(images/blogcatalogy/Abstracts1.png),
+    url(images/blogcatalogy/Abstracts2.png),
+    url(images/blogcatalogy/Abstracts3.png) !important;
+    background-position: 50% -1px, 50% (773px), 50% (1515px);
+    background-repeat: no-repeat;
+  }
+  &__desc{
+    line-height: 1.22;
+    @extend .fz-16;
+    color: #595959;
+    font-family: $font-three-Light;
+  }
+}
