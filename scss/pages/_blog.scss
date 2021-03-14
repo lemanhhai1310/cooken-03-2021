@@ -57,10 +57,7 @@
   }
   &__btn{
     line-height: 48px;
-    border: 1px solid #C4C4C4;
-    box-sizing: border-box;
-    border-radius: 8px;
-    @extend .fz-16;
+    @extend .blog__dc1;
     font-family: $font-primary-Bold;
     color: #000;
     &.uk-active{
@@ -68,5 +65,27 @@
       background: $color-02;
       color: #ffffff;
     }
+  }
+  &__boxSearch{
+    &__icon{
+      svg{
+        opacity: 0;
+      }
+    }
+    &__inputSearch{
+      height: 50px !important;
+      @extend .blog__dc1;
+      color: #595959;
+      &::placeholder{
+        color: #595959;
+      }
+      font-family: $font-three-Medium;
+    }
+  }
+  &__dc1{
+    border: 1px solid #C4C4C4 !important;
+    box-sizing: border-box;
+    border-radius: 8px;
+    @extend .fz-16;
   }
 }

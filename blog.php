@@ -48,7 +48,10 @@
             </div>
             <?php endforeach; ?>
             <div class="uk-width-expand">
-
+                <form class="uk-search uk-search-default uk-width-1-1">
+                    <span class="uk-search-icon-flip blog__boxSearch__icon uk-background-norepeat uk-background-center-center" data-src="images/Group-iconsearch.png" uk-img uk-search-icon></span>
+                    <input class="uk-search-input uk-form-large uk-width-1-1 blog__boxSearch__inputSearch" type="search" placeholder="Tìm Kiếm">
+                </form>
             </div>
         </div>
         <div class="uk-child-width-1-3@m mb-20 mb-40-m uk-grid-small uk-grid-20-m blog__grid" uk-grid>
