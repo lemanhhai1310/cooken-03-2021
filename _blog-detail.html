@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Cooken - Blog detail</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <!--CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="style.css?v=1615740642">
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js/dist/defer_plus.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
+    <script src="js/app.js?v=1615740642"></script>
+</head>
+<body class="isHome">
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+     attribution=setup_tool
+     page_id="2428809380682169"
+     logged_in_greeting="Bạn cần cắt HTML/CSS? Hãy chat ngay với chúng tôi"
+     logged_out_greeting="Bạn cần cắt HTML/CSS? Hãy chat ngay với chúng tôi">
+</div>
+<script>
+  defer(function() {
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v5.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  }, 5000);
+</script><section id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative">
+    <div uk-sticky="top: 100vh;animation: uk-animation-slide-top;">
+        <div class="header">
+            <div class="uk-container uk-padding-remove">
+                <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                    <div class="uk-navbar-left">
+                        <a href="." class="uk-navbar-item uk-logo"><img src="images/Logo1.png" alt=""></a>
+                    </div>
+                    <div class="uk-navbar-right">
+                        <ul class="uk-navbar-nav uk-visible@m">
+                            <li class="uk-active"><a href="about-us.php">Về chúng tôi</a></li>
+                            <li>
+                                <a href="#">Dịch vụ</a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="facebook-marketing.php">Facebook Marketing</a></li>
+                                        <li><a href="tiktok-marketing.php">Tiktok Marketing</a></li>
+                                        <li><a href="application-marketing.php">Application Marketing</a></li>
+                                        <li><a href="media-solution.php">Media Solutions</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Dự án</a></li>
+                            <li><a href="blog.php">Blog</a></li>
+                            <li><a href="lienhe.php">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section blog-detail__section1 uk-background-norepeat uk-background-top-center" data-src="images/blog-detail/anhchim1.png" uk-img>
+        <div class="uk-container uk-container-small mb-15 mb-33-m">
+            <ul class="uk-breadcrumb mb-15 mb-55-m">
+                <li><a href="">Trang Chủ</a></li>
+                <li><a href="">Bài Viết Mới</a></li>
+                <li><span>Ác mộng Covid-19 trở lại, nhiều nước rục rịch phong tỏa</span></li>
+            </ul>
+            <div class="uk-flex-middle uk-child-width-auto mb-15 mb-60-m" uk-grid>
+                <div>
+                    <div class="uk-child-width-auto uk-flex-middle uk-grid-12" uk-grid>
+                        <div>
+                            <div class="uk-cover-container uk-border-circle">
+                                <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover>
+                                <canvas width="25" height="25"></canvas>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="blog__box1__name">Cooker ADM</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <ul class="uk-child-width-auto uk-grid-27 blog__subnav" uk-grid>
+                        <li><span class="blog__box1__name">13 ngày trước</span></li>
+                        <li><span class="blog__box1__name">1257 views</span></li>
+                    </ul>
+                </div>
+            </div>
+            <h1 class="uk-h1 uk-text-center blog-detail__title mb-20 mb-40-m">Ác mộng Covid-19 trở lại, nhiều nước rục rịch phong tỏa</h1>
+            <div class="uk-text-center blog-detail__desc mb-20 mb-40-m">Nhiều nước châu Âu chuẩn bị áp đặt các biện pháp phong tỏa nghiêm ngặt, nhằm kiểm soát làn sóng dịch bệnh lần ba.</div>
+            <article class="uk-article blog-detail__article mb-20 mb-40-m">
+                <figure>
+                    <img src="https://znews-photo.zadn.vn/w660/Uploaded/seaekt/2021_03_14/ap.jpeg" alt="">
+                    <figcaption>Đường phố thủ đô Paris, Pháp, trong thời đại dịch. Ảnh: US News.</figcaption>
+                </figure>
+                <p>Chỉ trong ngày 12/3, giới chức Italy ghi nhận thêm 27.000 bệnh nhân Covid-19 và 389 trường hợp tử vong. Thủ tướng Mario Draghi tuyên bố: “Hơn một năm trải qua cuộc khủng hoảng sức khỏe, chúng ta lại phải đối mặt với một làn sóng lây nhiễm mới”.</p>
+                <p>“Ký ức về thảm kịch năm ngoái vẫn còn đó. Chúng tôi sẽ làm mọi thứ để ngăn điều này lặp lại”, Guardian dẫn lời ông Draghi.</p>
+                <p>Từ ngày 15/3, phần lớn địa phương ở Italy sẽ phong tỏa nghiêm ngặt và người dân chỉ được ra ngoài khi có nhu cầu thiết yếu. Tại đây, hầu hết cửa hàng, quán bar và nhà hàng cũng phải đóng cửa.</p>
+            </article>
+            <div class="uk-section-xsmall blog-detail__box1 mb-20 mb-59-m">
+                <div class="uk-flex-middle uk-grid-small uk-grid-69-m" uk-grid>
+                    <div class="uk-width-auto@m">
+                        <div class="uk-child-width-auto uk-grid-small uk-grid-26-m" uk-grid>
+                            <div><a href=""><img src="images/blog-detail/instagram.png" alt=""></a></div>
+                            <div><a href=""><img src="images/blog-detail/facebook.png" alt=""></a></div>
+                            <div><a href=""><img src="images/blog-detail/twiter.png" alt=""></a></div>
+                            <div><a href=""><img src="images/blog-detail/tiktok.png" alt=""></a></div>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand">
+                        <div class="uk-child-width-auto uk-grid-small uk-grid-56-m" uk-grid>
+                            <div>
+                                <div class="uk-flex-middle uk-grid-7" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img src="images/blog-detail/icon/action/visibility_24px.png" alt="">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <span class="blog-detail__box1__txt">1.258</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-flex-middle uk-grid-7" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img src="images/blog-detail/icon/editor/mode_comment_24px.png" alt="">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <span class="blog-detail__box1__txt">45</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-auto">
+                        <div class="uk-flex-middle uk-grid-7" uk-grid>
+                            <div class="uk-width-auto">
+                                <img src="images/blog-detail/icon/content/reply_24px.png" alt="">
+                            </div>
+                            <div class="uk-width-expand">
+                                <a href="" class="blog-detail__box1__link">Chia Sẻ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="uk-h2 blog-detail__title1 uk-margin-remove">Bài Viết Liên Quan</h2>
+        </div>
+        <div class="uk-container">
+            <div class="uk-child-width-1-3@m mb-20 mb-40-m uk-grid-small uk-grid-20-m blog__grid" uk-grid>
+                <div>
+                    <div class="uk-cover-container blog__box1__bg">
+                        <img src="images/blog/img1.png" alt="" uk-cover>
+                        <canvas width="720" height="582"></canvas>
+                    </div>
+                    <div>
+                        <div class="uk-flex-middle uk-child-width-auto uk-flex-between uk-grid-collapse mb-10 mb-20-m" uk-grid>
+                            <div>
+                                <div class="uk-child-width-auto uk-flex-middle uk-grid-12" uk-grid>
+                                    <div>
+                                        <div class="uk-cover-container uk-border-circle">
+                                            <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover>
+                                            <canvas width="25" height="25"></canvas>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="blog__box1__name">Cooker ADM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <ul class="uk-child-width-auto uk-grid-27 blog__subnav" uk-grid>
+                                    <li><span class="blog__box1__name">13 ngày trước</span></li>
+                                    <li><span class="blog__box1__name">1257 views</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h5 class="uk-h5 blog__box1__title uk-margin-remove"><a href="blog-detail.php">Lorem Ipsum is simply dummy text of the printi and typesetting industry. Lorem Ipsum has been</a></h5>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-cover-container blog__box1__bg">
+                        <img src="images/blog/img2.png" alt="" uk-cover>
+                        <canvas width="720" height="582"></canvas>
+                    </div>
+                    <div>
+                        <div class="uk-flex-middle uk-child-width-auto uk-flex-between uk-grid-collapse mb-10 mb-20-m" uk-grid>
+                            <div>
+                                <div class="uk-child-width-auto uk-flex-middle uk-grid-12" uk-grid>
+                                    <div>
+                                        <div class="uk-cover-container uk-border-circle">
+                                            <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover>
+                                            <canvas width="25" height="25"></canvas>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="blog__box1__name">Cooker ADM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <ul class="uk-child-width-auto uk-grid-27 blog__subnav" uk-grid>
+                                    <li><span class="blog__box1__name">13 ngày trước</span></li>
+                                    <li><span class="blog__box1__name">1257 views</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h5 class="uk-h5 blog__box1__title uk-margin-remove"><a href="blog-detail.php">Lorem Ipsum is simply dummy text of the printi and typesetting industry. Lorem Ipsum has been</a></h5>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-cover-container blog__box1__bg">
+                        <img src="images/blog/img3.png" alt="" uk-cover>
+                        <canvas width="720" height="582"></canvas>
+                    </div>
+                    <div>
+                        <div class="uk-flex-middle uk-child-width-auto uk-flex-between uk-grid-collapse mb-10 mb-20-m" uk-grid>
+                            <div>
+                                <div class="uk-child-width-auto uk-flex-middle uk-grid-12" uk-grid>
+                                    <div>
+                                        <div class="uk-cover-container uk-border-circle">
+                                            <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover>
+                                            <canvas width="25" height="25"></canvas>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="blog__box1__name">Cooker ADM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <ul class="uk-child-width-auto uk-grid-27 blog__subnav" uk-grid>
+                                    <li><span class="blog__box1__name">13 ngày trước</span></li>
+                                    <li><span class="blog__box1__name">1257 views</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h5 class="uk-h5 blog__box1__title uk-margin-remove"><a href="blog-detail.php">Lorem Ipsum is simply dummy text of the printi and typesetting industry. Lorem Ipsum has been</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--ĐĂNG KÝ TƯ VẤN-->
+    <div class="home__section02 uk-section" uk-height-viewport="offset-bottom: true">
+        <div class="uk-container uk-container-small">
+            <div class="uk-text-center uk-margin home__boxCommon mb-40-m">
+                <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">ĐĂNG KÝ TƯ VẤN</h2>
+                <p class="uk-margin-remove home__boxCommon__desc">Hãy để Cooken Agency đồng hành cùng thành công của bạn</p>
+            </div>
+            <div class="uk-flex-center " uk-grid uk-scrollspy="target: .animation; cls: uk-animation-slide-bottom-small; delay: 500; repeat: false;">
+                <div class="uk-width-3-5@m">
+                    <form class="uk-grid-small uk-grid-20-m uk-margin mb-40-m" uk-grid>
+                        <div class="uk-width-1-1">
+                            <input class="uk-input uk-border-rounded home__section02__input" type="text" placeholder="Email">
+                        </div>
+                        <div class="uk-width-1-1">
+                            <input class="uk-input uk-border-rounded home__section02__input" type="text" placeholder="Tên">
+                        </div>
+                        <div class="uk-width-1-2">
+                            <input class="uk-input uk-border-rounded home__section02__input" type="text" placeholder="Số điện thoại">
+                        </div>
+                        <div class="uk-width-1-2">
+                            <input class="uk-input uk-border-rounded home__section02__input" type="text" placeholder="Lĩnh vực">
+                        </div>
+                        <div class="uk-width-1-1">
+                            <input class="uk-input uk-border-rounded home__section02__input" type="text" placeholder="Ngân sách dự kiến">
+                        </div>
+                    </form>
+                    <div class="uk-text-center">
+                        <button type="button" class="animation home__section02__btn uk-button uk-button-secondary uk-border-pill">NHẬN ĐĂNG KÝ TƯ VẤN</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--/ĐĂNG KÝ TƯ VẤN-->
+
+    <!--LIÊN HỆ,HÌNH THỨC THANH TOÁN-->
+    <div class="home__section01 uk-section uk-background-norepeat uk-background-top-center" uk-height-viewport="offset-bottom: true" data-src="images/bg1.png" uk-img>
+        <div class="uk-container uk-container-small">
+            <div class="uk-text-center uk-margin home__boxCommon mb-80-m">
+                <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">LIÊN HỆ</h2>
+            </div>
+            <div class="uk-child-width-1-3@m uk-grid-73-m uk-margin mb-76-m" uk-grid>
+                <div>
+                    <div class="uk-text-center home__section01__box1">
+                        <div class="uk-margin mb-44-m home__section01__box1__img">
+                            <img class="uk-responsive-height" src="images/lienhe/FAQ.png" alt="">
+                        </div>
+                        <div><span class="home__section01__box1__txt">Tất cả những gì bạn cần biết về Cooken Agency và cách chúng tôi giúp khách hàng phát triển</span></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-text-center home__section01__box1">
+                        <div class="uk-margin mb-44-m home__section01__box1__img">
+                            <img class="uk-responsive-height" src="images/lienhe/Fb&Telegram.png" alt="">
+                        </div>
+                        <div class="uk-flex-middle uk-flex-center uk-child-width-auto uk-grid-8 uk-margin-small mb-17-m" uk-grid>
+                            <div>
+                                <img src="images/lienhe/iconfinder_telegram_3069742-copy.png" alt="">
+                            </div>
+                            <div>
+                                <span class="home__section01__box1__txt">@cookensupport</span>
+                            </div>
+                        </div>
+                        <div class="uk-flex-middle uk-flex-center uk-child-width-auto uk-grid-8 uk-margin-remove" uk-grid>
+                            <div>
+                                <img src="images/lienhe/iconfinder_facebook_834722.png" alt="">
+                            </div>
+                            <div>
+                                <span class="home__section01__box1__txt">@cookenmediaagency</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-text-center home__section01__box1">
+                        <div class="uk-margin mb-44-m home__section01__box1__img">
+                            <img class="uk-responsive-height" src="images/lienhe/Chat.png" alt="">
+                        </div>
+                        <div><span class="home__section01__box1__txt">Hỗ trợ trực tuyến 24/7 <br> 365 ngày/năm</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-margin-medium mb-120-m" uk-slider="finite: true;autoplay: true;">
+
+                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-flex-middle" uk-grid>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/lienhe/Logo_MB_new.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/lienhe/logo-cong-ty-funtap.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/lienhe/download.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/lienhe/luxstray-6.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/lienhe/Logo_MB_new.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/lienhe/logo-cong-ty-funtap.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/lienhe/download.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/lienhe/luxstray-6.png" alt="">
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!--
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    -->
+
+                </div>
+
+                <ul class="home__dot1 uk-slider-nav uk-dotnav uk-flex-center uk-margin mt-37-m"></ul>
+
+            </div>
+
+            <div class="uk-text-center uk-margin home__boxCommon mb-64-m">
+                <h2 class="uk-h2 uk-text-uppercase home__boxCommon__title">HÌNH THỨC THANH TOÁN</h2>
+            </div>
+            <div uk-slider="finite: true;autoplay: true;">
+
+                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-flex-middle" uk-grid>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/thanhtoan/paysafecard-1.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/thanhtoan/visaMasterCard-1.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/thanhtoan/webmoney-1.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/thanhtoan/yandexMoney-1.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/thanhtoan/paysafecard-1.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/thanhtoan/visaMasterCard-1.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/thanhtoan/webmoney-1.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-text-center">
+                                <img src="images/thanhtoan/yandexMoney-1.png" alt="">
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!--
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    -->
+
+                </div>
+
+                <ul class="home__dot1 uk-slider-nav uk-dotnav uk-flex-center uk-margin mt-60-m"></ul>
+
+            </div>
+        </div>
+    </div><!--/LIÊN HỆ,HÌNH THỨC THANH TOÁN-->
+    <footer class="footer">
+        <div class="uk-section-small footer__top uk-light">
+            <div class="uk-container uk-container-small">
+                <div class="uk-child-width-1-4@m uk-margin footer__top__grid1" uk-grid>
+                    <div>
+                        <h5 class="uk-h5 footer__top__title">Về chúng tôi</h5>
+                        <h5 class="uk-h5 footer__top__title">Dự án</h5>
+                    </div>
+                    <div>
+                        <h5 class="uk-h5 footer__top__title">Dịch vụ</h5>
+                        <ul class="uk-list footer__top__menu">
+                            <li><a href="facebook-marketing.php">Facebook Marketing</a></li>
+                            <li><a href="tiktok-marketing.php">Tiktok Marketing</a></li>
+                            <li><a href="application-marketing.php">Application Marketing</a></li>
+                            <li><a href="media-solution.php">Media Solutions</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5 class="uk-h5 footer__top__title">Liên hệ</h5>
+                        <ul class="uk-list footer__top__menu">
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Live Chat</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5 class="uk-h5 footer__top__title">Chính sách</h5>
+                        <ul class="uk-list footer__top__menu">
+                            <li><a href="">Quy trình làm việc</a></li>
+                            <li><a href="">Chính sách thanh toán</a></li>
+                        </ul>
+                        <div class="uk-child-width-auto uk-grid-small uk-grid-20-m uk-flex-middle" uk-grid>
+                            <div>
+                                <a href=""><img src="images/social/fb.png" alt=""></a>
+                            </div>
+                            <div>
+                                <a href=""><img src="images/social/telegram.png" alt=""></a>
+                            </div>
+                            <div>
+                                <a href=""><img src="images/social/in.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__top__box1">
+                    <div>© 2021 Cassandera Capital LTD</div>
+                    <div>Giấy phép số 8723/GP-TTĐT - Sở thông tin và truyền thông TP. Hồ Chí Minh - Cấp ngày 02/02/2015. Ghi rõ nguồn khi bạn phát hành lại thông tin từ website này.</div>
+                </div>
+            </div>
+        </div>
+        <div class="uk-section-xsmall footer__bottom">
+            <div class="uk-container uk-container-small">
+                <div class="uk-child-width-auto uk-grid-small uk-grid-20-m uk-flex-center" uk-grid>
+                    <div>
+                        <a href="" class="uk-active footer__bottom__btn uk-button uk-button-secondary uk-border-rounded">Tư vấn dịch vụ</a>
+                    </div>
+                    <div>
+                        <a href="" class=" footer__bottom__btn uk-button uk-button-secondary uk-border-rounded">Dự án thành công</a>
+                    </div>
+                    <div>
+                        <a href="" class=" footer__bottom__btn uk-button uk-button-secondary uk-border-rounded">Gọi lại cho tôi</a>
+                    </div>
+                    <div>
+                        <a href="" class=" footer__bottom__btn uk-button uk-button-secondary uk-border-rounded">Khách hàng tiêu biểu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+</body>
+</html>

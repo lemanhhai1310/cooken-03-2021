@@ -22,7 +22,7 @@
 <?php require "template-parts/commons/facebook_chat.php"; ?>
 <section id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative">
     <div uk-sticky="top: 100vh;animation: uk-animation-slide-top;">
-        <div class="header uk-background-default">
+        <div class="header">
             <div class="uk-container uk-padding-remove">
                 <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
                     <div class="uk-navbar-left">

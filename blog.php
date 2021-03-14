@@ -122,7 +122,7 @@
                             </ul>
                         </div>
                     </div>
-                    <h5 class="uk-h5 blog__box1__title uk-margin-remove"><a href="">Lorem Ipsum is simply dummy text of the printi and typesetting industry. Lorem Ipsum has been</a></h5>
+                    <h5 class="uk-h5 blog__box1__title uk-margin-remove"><a href="blog-detail.php">Lorem Ipsum is simply dummy text of the printi and typesetting industry. Lorem Ipsum has been</a></h5>
                 </div>
             </div>
             <?php endforeach; ?>

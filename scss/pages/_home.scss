@@ -279,7 +279,9 @@
     }
     &__box1{
       &__btn{
-        min-width: 200px;
+        &--c1{
+          min-width: 200px;
+        }
         padding: 0 20px;
         width: 100%;
         font-family: $font-primary-Bold;

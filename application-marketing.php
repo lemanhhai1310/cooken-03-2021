@@ -42,7 +42,7 @@
             );
             foreach ($data as $k => $v): ?>
                 <li>
-                    <a href="" class="home__section07__box1__btn uk-button uk-button-default"><?= $v ?></a>
+                    <a href="" class="home__section07__box1__btn home__section07__box1__btn--c1 uk-button uk-button-default"><?= $v ?></a>
                 </li>
             <?php endforeach; ?>
         </ul>
