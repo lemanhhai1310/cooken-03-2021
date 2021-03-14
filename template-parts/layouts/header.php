@@ -20,6 +20,7 @@
 </head>
 <body class="<?= ($is_home) ? 'isHome' : '' ?>">
 <?php require "template-parts/commons/facebook_chat.php"; ?>
+<?php require "template-parts/commons/menu-mobile.php"; ?>
 <section id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative">
     <div uk-sticky="top: 100vh;animation: uk-animation-slide-top;">
         <div class="header">
@@ -29,6 +30,13 @@
                         <a href="." class="uk-navbar-item uk-logo"><img src="images/Logo1.png" alt=""></a>
                     </div>
                     <div class="uk-navbar-right">
+                        <a href="#offcanvas-overlay-trekhoedep" class="uk-navbar-toggle uk-hidden@m" uk-toggle>
+                            <div id="m_nav_menu" class="m_nav menu">
+                                <div class="m_nav_ham button_closed" id="m_ham_1"></div>
+                                <div class="m_nav_ham button_closed" id="m_ham_2"></div>
+                                <div class="m_nav_ham button_closed" id="m_ham_3"></div>
+                            </div>
+                        </a>
                         <ul class="uk-navbar-nav uk-visible@m">
                             <li class="uk-active"><a href="about-us.php">Về chúng tôi</a></li>
                             <li>

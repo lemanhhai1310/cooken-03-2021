@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e397632b-6e6c-438c-a762-a9464889c7b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_blog-catalogy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-catalogy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/pages/_blog-catalogy.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/layout/_menu-mobile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/pages/_product.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-parts/commons/menu-mobile.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../base/scss/components/_keyframes.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/.idea/workspace.xml" afterDir="false" />
@@ -16,9 +16,12 @@
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_fontsize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_fontsize.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/layouts/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hopgiaygiare/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hopgiaygiare/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hopgiaygiare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hopgiaygiare/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/.idea/workspace.xml" afterDir="false" />
@@ -57,7 +60,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/scss/pages" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -72,10 +75,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scss/pages" />
+      <recent name="$PROJECT_DIR$/scss/layout" />
+      <recent name="$PROJECT_DIR$/template-parts/commons" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images/duan" />
-      <recent name="$PROJECT_DIR$/fonts" />
-      <recent name="$PROJECT_DIR$/template-parts/layouts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -95,7 +99,8 @@
       <workItem from="1615512460505" duration="20328000" />
       <workItem from="1615712675848" duration="1673000" />
       <workItem from="1615717236079" duration="473000" />
-      <workItem from="1615730270904" duration="9340000" />
+      <workItem from="1615730270904" duration="10434000" />
+      <workItem from="1615747494110" duration="1300000" />
     </task>
     <servers />
   </component>
