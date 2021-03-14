@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e397632b-6e6c-438c-a762-a9464889c7b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_lienhe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lienhe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/pages/_lienhe.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../base/scss/components/_keyframes.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/.idea/workspace.xml" afterDir="false" />
@@ -13,9 +16,9 @@
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/_blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pages/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_breadcrumb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_margin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_margin.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template-parts/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/layouts/header.php" afterDir="false" />
@@ -93,7 +96,9 @@
       <workItem from="1615422323943" duration="289000" />
       <workItem from="1615432116116" duration="4810000" />
       <workItem from="1615512460505" duration="20328000" />
-      <workItem from="1615712675848" duration="1109000" />
+      <workItem from="1615712675848" duration="1673000" />
+      <workItem from="1615717236079" duration="473000" />
+      <workItem from="1615730270904" duration="1080000" />
     </task>
     <servers />
   </component>

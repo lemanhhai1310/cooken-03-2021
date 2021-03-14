@@ -1,0 +1,10 @@
+.lienhe{
+  &__section1{
+    background-image: url(images/lienhe/anhchim1.png), url(images/lienhe/anhchim2.png) !important;
+    background-position: 50% 0, 50% (112px);
+    background-repeat: no-repeat;
+    @include media-breakpoint-up('m'){
+      padding-top: 48px !important;
+    }
+  }
+}

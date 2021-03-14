@@ -1,0 +1,23 @@
+.uk-breadcrumb{
+  >li{
+    &:nth-child(n+2){
+      &:before{
+        $x: 7px;
+        margin: 0 #{$x} 0 calc(#{$x} - 4px) !important;
+      }
+    }
+    >a{
+      color: #888888;
+      @extend .uk-breadcrumb__dc1;
+    }
+    >span{
+      color: $color-01 !important;
+      @extend .uk-breadcrumb__dc1;
+    }
+  }
+  &__dc1{
+    @extend .fz-20;
+    font-family: $font-three-Light;
+    line-height: (23/20);
+  }
+}

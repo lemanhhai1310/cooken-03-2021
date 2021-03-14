@@ -23,7 +23,7 @@
 <section id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative">
     <div uk-sticky="top: 100vh;animation: uk-animation-slide-top;">
         <div class="header uk-background-default">
-            <div class="uk-container uk-container-small uk-padding-remove">
+            <div class="uk-container uk-padding-remove">
                 <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
                     <div class="uk-navbar-left">
                         <a href="." class="uk-navbar-item uk-logo"><img src="images/Logo1.png" alt=""></a>
@@ -44,7 +44,7 @@
                             </li>
                             <li><a href="#">Dự án</a></li>
                             <li><a href="blog.php">Blog</a></li>
-                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="lienhe.php">Liên hệ</a></li>
                         </ul>
                     </div>
                 </nav>
