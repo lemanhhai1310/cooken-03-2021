@@ -332,7 +332,7 @@
         text-transform: inherit;
         border-color: transparent;
         @include media-breakpoint-up('m'){
-          line-height: 67px;
+          line-height: 50px;
         }
         &.uk-active{
           background: $color-01;

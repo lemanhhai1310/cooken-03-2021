@@ -109,7 +109,98 @@
                 <a href="" class="home__section07__box3__btn uk-button uk-button-default uk-border-pill">Nước Ngoài</a>
             </div>
         </div>
-        <div class="uk-child-width-1-3@m uk-grid-match uk-grid-small uk-grid-37-m" uk-grid>
+        <div class="" uk-slider>
+
+            <div class="uk-position-relative">
+
+                <div class="uk-slider-container uk-light uk-slider-container-offset">
+                    <ul class="uk-slider-items uk-child-width-1-3@m uk-grid-match uk-grid-small uk-grid-37-m" uk-grid>
+                        <?php
+                        $data = array(
+                            array(
+                                'src' => 'images/duan/logo1.png',
+                                'txt' => array(
+                                    'Số lượng người dùng sử dụng dịch vụ định danh khách hàng điện tử - eKYC 15x%',
+                                    'Tổng số lượt nhắc đến trên các trang mạng xã hội ( Facebook, Tiktok, ...) tăng 200% xuyên suốt chiến dịch',
+                                    'Số người dùng sử dụng ứng dụng sau khi đăng ký tài khoản tăng 54%',
+                                ),
+                            ),
+                            array(
+                                'src' => 'images/duan/logo2.png',
+                                'txt' => array(
+                                    'Tổng số người dùng ứng dụng tăng trưởng 17x%',
+                                    'Tỉ lệ người dùng quay lại/tái cài đặt tăng 63%',
+                                    'Tổng doanh thu ghi nhận từ nền tảng ứng dụng tăng 300%',
+                                ),
+                            ),
+                            array(
+                                'src' => 'images/duan/logo3.png',
+                                'txt' => array(
+                                    'Tổng số người cài đặt ứng dụng tăng trưởng 19x%',
+                                    'Tỉ lệ gỡ ứng dụng trong vòng 7 ngày sau khi cài đặt giảm 71%',
+                                    'Tỉ lệ người chơi thực hiện hành động chi trả trong quá trình sử dụng 34%',
+                                ),
+                            ),
+                            array(
+                                'src' => 'images/duan/logo1.png',
+                                'txt' => array(
+                                    'Số lượng người dùng sử dụng dịch vụ định danh khách hàng điện tử - eKYC 15x%',
+                                    'Tổng số lượt nhắc đến trên các trang mạng xã hội ( Facebook, Tiktok, ...) tăng 200% xuyên suốt chiến dịch',
+                                    'Số người dùng sử dụng ứng dụng sau khi đăng ký tài khoản tăng 54%',
+                                ),
+                            ),
+                            array(
+                                'src' => 'images/duan/logo2.png',
+                                'txt' => array(
+                                    'Tổng số người dùng ứng dụng tăng trưởng 17x%',
+                                    'Tỉ lệ người dùng quay lại/tái cài đặt tăng 63%',
+                                    'Tổng doanh thu ghi nhận từ nền tảng ứng dụng tăng 300%',
+                                ),
+                            ),
+                            array(
+                                'src' => 'images/duan/logo3.png',
+                                'txt' => array(
+                                    'Tổng số người cài đặt ứng dụng tăng trưởng 19x%',
+                                    'Tỉ lệ gỡ ứng dụng trong vòng 7 ngày sau khi cài đặt giảm 71%',
+                                    'Tỉ lệ người chơi thực hiện hành động chi trả trong quá trình sử dụng 34%',
+                                ),
+                            ),
+                        );
+                        foreach ($data as $k => $v): ?>
+                            <li>
+                                <div class="uk-card uk-card-default uk-text-center home__section07__box4">
+                                    <div class="home__section07__box4__img uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="<?= $v['src'] ?>" alt="">
+                                    </div>
+                                    <div class="uk-card-body home__section07__box4__body">
+                                        <ul class="uk-list home__section07__box4__list">
+                                            <?php foreach ($v['txt'] as $k1 => $v1): ?>
+                                                <li><?= $v1 ?></li>
+                                            <?php endforeach; ?>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                </div>
+
+                <div class="uk-hidden@s uk-light">
+                    <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                </div>
+
+                <div class="uk-visible@s">
+                    <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                </div>
+
+            </div>
+
+            <ul class="uk-slider-nav home__dot1 uk-dotnav uk-flex-center uk-margin"></ul>
+
+        </div>
+        <div class="uk-child-width-1-3@m uk-grid-match uk-grid-small uk-grid-37-m uk-hidden" uk-grid>
             <?php
             $data = array(
                 array(
