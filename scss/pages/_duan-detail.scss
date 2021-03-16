@@ -162,6 +162,7 @@
   &__box7{
     .uk-textarea{
       border: 1px solid #F2F2F2;
+      font-family: $font-four;
     }
     .uk-card-body{
       border: 1px solid #F2F2F2;
@@ -173,6 +174,79 @@
       color: #F3CA18;
       font-family: $font-three-Bold;
     }
+    &__input{
+      @extend .fz-16;
+      color: #828282;
+      font-family: $font-four;
+      border-color: #E0E0E0;
+      border-radius: 4px;
+    }
+    &__btn1{
+      border-color: #E0E0E0;
+      border-radius: 4px;
+    }
+    &__btnSend{
+      background: #F3CA18;
+      border-radius: 14px;
+      font-family: $font-four;
+    }
+  }
+  &__box8{
+    &__item{
+      &:nth-child(n+2){
+        border-top: 1px solid #F2F2F2;
+        $x: 15px;
+        padding-top: #{$x};
+        margin-top: #{$x};
+        @include media-breakpoint-up('m'){
+          $x: 25px;
+          padding-top: #{$x};
+          margin-top: #{$x};
+        }
+      }
+    }
+    &__title{
+      @extend .fz-18;
+      color: #333333;
+      line-height: 1.5;
+      font-family: $font-four;
+    }
+    &__desc{
+      @extend .fz-16;
+      color: #333333;
+      line-height: 1.5;
+      font-family: $font-four;
+    }
+    &__link{
+      @extend .fz-16;
+    }
+    &__txt1{
+      @extend .fz-16;
+    }
+    &__rep{
+      &:before{
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+
+        border-bottom: 5px solid #F2F2F2;
+        position: absolute;
+        bottom: 100%;
+        left: 10px;
+      }
+      background-color: #F2F2F2;
+      padding: 15px;
+      position: relative;
+      @include media-breakpoint-up('m'){
+        padding: 20px;
+      }
+      margin-top: 10px;
+    }
+  }
+  &__box9{
+
   }
 }
 .fb-like{

@@ -151,10 +151,125 @@
             </div>
         </div>
         <h4 class="uk-h4 mb-20 mb-42-m duan-detail__box7__title">56 Bình Luận</h4>
-        <div class="uk-card duan-detail__box7">
-            <textarea class="uk-textarea" rows="5" placeholder="Type your topic here"></textarea>
+        <div class="uk-card duan-detail__box7 mb-20 mb-60-m">
+            <textarea class="uk-textarea" rows="4" placeholder="Type your topic here"></textarea>
             <div class="uk-card-body uk-padding-small">
-
+                <div class="uk-grid-small" uk-grid>
+                    <div class="uk-width-auto@s">
+                        <div uk-form-custom>
+                            <input type="file">
+                            <button type="button" class="uk-button uk-button-default duan-detail__box7__btn1"><span uk-icon="icon: camera; ratio: 1"></span></button>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand">
+                        <input class="uk-input duan-detail__box7__input" type="text" placeholder="Tên (bắt buộc)">
+                    </div>
+                    <div class="uk-width-expand">
+                        <input class="uk-input duan-detail__box7__input" type="text" placeholder="Email (bắt buộc)">
+                    </div>
+                    <div class="uk-width-auto@s">
+                        <button type="button" class="uk-button uk-button-secondary duan-detail__box7__btnSend">Gửi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mb-60-m mb-20 duan-detail__box8">
+            <?php
+            $data = array(
+                array(
+                    'src' => 'images/lemanhhai_anhthe.jpg',
+                    'title' => 'Tomothy Flores',
+                    'txt' => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    'rep' => true,
+                ),
+                array(
+                    'src' => 'https://scontent.fhan1-1.fna.fbcdn.net/v/t1.0-9/106811730_2570923246556503_4125828132645434650_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=rkYOHF45k2wAX-CqIyn&_nc_ht=scontent.fhan1-1.fna&oh=7cc9c8818417912d8d24db0e89453dfc&oe=60752B19',
+                    'title' => 'Tomothy Flores',
+                    'txt' => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    'rep' => false,
+                ),
+            );
+            foreach ($data as $k => $v): ?>
+            <div class="duan-detail__box8__item">
+                <div class="uk-grid-small uk-grid-26-m" uk-grid>
+                    <div class="uk-width-auto">
+                        <div class="uk-cover-container uk-border-circle">
+                            <img src="<?= $v['src'] ?>" alt="" uk-cover>
+                            <canvas width="40" height="40"></canvas>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand">
+                        <div class="mb-7">
+                            <div class="duan-detail__box8__title"><?= $v['title'] ?></div>
+                            <div class="duan-detail__box8__desc"><?= $v['txt'] ?></div>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-auto" uk-grid>
+                            <div>
+                                <a href="" class="duan-detail__box8__link">Trả lời</a>
+                            </div>
+                            <div>
+                                <img src="images/item/discuss/24px/like.png" alt="">
+                                <a href="" class="duan-detail__box8__link">Thích</a>
+                            </div>
+                            <div>
+                                <span uk-icon="icon: calendar; ratio: 1"></span>
+                                <span class="duan-detail__box8__txt1">10/9/2019  10:46</span>
+                            </div>
+                        </div>
+                        <?php if ($v['rep']): ?>
+                        <div class="duan-detail__box8__rep">
+                            <div class="uk-grid-small uk-grid-26-m" uk-grid>
+                                <div class="uk-width-auto">
+                                    <div class="uk-cover-container uk-border-circle">
+                                        <img src="<?= $v['src'] ?>" alt="" uk-cover>
+                                        <canvas width="40" height="40"></canvas>
+                                    </div>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <div class="mb-7">
+                                        <div class="duan-detail__box8__title"><?= $v['title'] ?></div>
+                                        <div class="duan-detail__box8__desc"><?= $v['txt'] ?></div>
+                                    </div>
+                                    <div class="uk-grid-small uk-child-width-auto" uk-grid>
+                                        <div>
+                                            <a href="" class="duan-detail__box8__link">Trả lời</a>
+                                        </div>
+                                        <div>
+                                            <img src="images/item/discuss/24px/like.png" alt="">
+                                            <a href="" class="duan-detail__box8__link">Hài lòng</a>
+                                        </div>
+                                        <div>
+                                            <img src="images/item/discuss/24px/dislike.png" alt="">
+                                            <a href="" class="duan-detail__box8__link">Không hài lòng</a>
+                                        </div>
+                                        <div>
+                                            <span uk-icon="icon: calendar; ratio: 1"></span>
+                                            <span class="duan-detail__box8__txt1">10/9/2019  10:46</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <?php endif; ?>
+                    </div>
+                </div>
+            </div>
+            <?php endforeach; ?>
+        </div>
+        <ul class="uk-pagination uk-flex-center uk-grid-12" uk-grid uk-margin>
+            <li class="uk-pagination__li"><a class="uk-pagination__a" href="#"><span uk-pagination-previous></span></a></li>
+            <li class="uk-pagination__li"><a class="uk-pagination__a" href="#">1</a></li>
+            <li class="uk-disabled uk-pagination__li"><span class="uk-pagination__a">...</span></li>
+            <li class="uk-pagination__li"><a class="uk-pagination__a" href="#">5</a></li>
+            <li class="uk-pagination__li"><a class="uk-pagination__a" href="#">6</a></li>
+            <li class="uk-active uk-pagination__li"><span class="uk-pagination__a">7</span></li>
+            <li class="uk-pagination__li"><a class="uk-pagination__a" href="#">8</a></li>
+            <li class="uk-pagination__li"><a class="uk-pagination__a" href="#"><span uk-pagination-next></span></a></li>
+        </ul>
+        <hr>
+        <div class="duan-detail__box9" uk-grid>
+            <div>
+                <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="" data-numposts="5"></div>
             </div>
         </div>
     </div>
