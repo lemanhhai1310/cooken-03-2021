@@ -50,7 +50,7 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li><a href="#">Dự án</a></li>
+                            <li><a href="duan.php">Dự án</a></li>
                             <li><a href="blog.php">Blog</a></li>
                             <li><a href="lienhe.php">Liên hệ</a></li>
                         </ul>

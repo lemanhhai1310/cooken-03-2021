@@ -74,3 +74,22 @@
   font-weight:normal;
   font-style:normal;
 }
+/**
+ * --------------------------------------------------------------------
+ * SVN-Segoe UI Condensed
+ * --------------------------------------------------------------------
+ */
+@font-face{
+  font-family:'SVN-Segoe UI Condensed Regular';
+  font-display: auto;
+  src:local('SVN-Segoe UI Condensed Regular'), url('fonts/SVN-Segoe UI Condensed.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'SVN-Segoe UI Condensed Bold';
+  font-display: auto;
+  src:local('SVN-Segoe UI Condensed Bold'), url('fonts/SVN-Segoe UI Condensed bold.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}

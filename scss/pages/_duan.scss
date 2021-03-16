@@ -1,0 +1,20 @@
+.duan{
+  &__box1{
+    &__overlay{
+      background: rgba(36, 36, 36, 0.5);
+      color: #ffffff;
+    }
+    &__title{
+      @extend .fz-24;
+      line-height: (32/24);
+      color: #ffffff;
+      font-family: $font-four-Bold;
+    }
+    &__desc{
+      @extend .fz-16;
+      line-height: (21/16);
+      color: #ffffff;
+      font-family: $font-four;
+    }
+  }
+}
