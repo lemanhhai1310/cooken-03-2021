@@ -36,6 +36,13 @@
   font-weight:normal;
   font-style:normal;
 }
+@font-face{
+  font-family:'Roboto Bold';
+  font-display: auto;
+  src:local('Roboto Bold'), url('fonts/Roboto-Bold_0.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
 /**
  * --------------------------------------------------------------------
  * Raleway
@@ -90,6 +97,18 @@
   font-family:'SVN-Segoe UI Condensed Bold';
   font-display: auto;
   src:local('SVN-Segoe UI Condensed Bold'), url('fonts/SVN-Segoe UI Condensed bold.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+/**
+ * --------------------------------------------------------------------
+ * Open Sans
+ * --------------------------------------------------------------------
+ */
+@font-face{
+  font-family:'Open Sans SemiBold';
+  font-display: auto;
+  src:local('Open Sans SemiBold'), url('fonts/OpenSans-SemiBold.ttf') format('truetype');
   font-weight:normal;
   font-style:normal;
 }

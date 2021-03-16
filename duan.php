@@ -100,7 +100,7 @@
                         <div class="uk-text-center">
                             <p class="duan__box1__title uk-h4 uk-margin-remove">Lorem Ipsum</p>
                             <p class="duan__box1__desc">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                            <a href="" class="home__section05__box1__btn uk-border-rounded uk-button uk-button-secondary animation uk-scrollspy-inview uk-animation-slide-bottom-small" style="">Xem thêm</a>
+                            <a href="duan-detail.php" class="home__section05__box1__btn uk-border-rounded uk-button uk-button-secondary animation uk-scrollspy-inview uk-animation-slide-bottom-small" style="">Xem thêm</a>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,188 @@
+.duan-detail{
+  &__box1{
+    &__txt{
+      margin-left: 4px;
+      @extend .fz-16;
+      line-height: (19/16);
+      color: #4f4f4f;
+      font-family: $font-three;
+    }
+  }
+  &__box2{
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    @include media-breakpoint-up('m'){
+      padding: 20px;
+    }
+  }
+  &__box3{
+    &__txt{
+      font-family: $font-three-Medium;
+      letter-spacing: 0.02em;
+      text-align: center;
+      @extend .fz-20;
+      line-height: (23/20);
+      color: #F3CA18;
+    }
+    &__select{
+      box-sizing: border-box;
+      border-radius: 9px;
+      @extend .fz-16;
+      color: #4f4f4f;
+      letter-spacing: 0.02em;
+      text-transform: inherit;
+      text-align: left;
+      padding-left: 10px;
+      position: relative;
+      .line-clamp-1{
+        height: 38px;
+      }
+      .uk-icon{
+        right: 7px;
+      }
+    }
+    &__input{
+      box-sizing: border-box;
+      border-radius: 9px;
+      @extend .fz-16;
+      color: #4f4f4f;
+      &::placeholder{
+        color: #4f4f4f;
+      }
+      letter-spacing: 0.02em;
+    }
+    &__btn{
+      background: #FFC444;
+      border-radius: 10px;
+    }
+  }
+  &__box4{
+    &__title{
+      letter-spacing: 0.02em;
+      color: #F3CA18;
+      @extend .fz-20;
+      line-height: (23/20);
+      font-family: $font-three-Medium;
+      margin-bottom: 20px !important;
+    }
+    &__txt1{
+      letter-spacing: 0.02em;
+      color: #25282B;
+      @extend .fz-16;
+      line-height: (19/16);
+      font-family: $font-three-Medium;
+      margin-bottom: 6px;
+      @include media-breakpoint-up('m'){
+        margin-bottom: 13px;
+      }
+    }
+    &__txt2{
+      letter-spacing: 0.02em;
+      color: #4F4F4F;
+      @extend .fz-16;
+      line-height: (23/16);
+      @include media-breakpoint-up('m'){
+        padding-left: 17px;
+      }
+    }
+    &__item{
+      &:nth-child(n+2){
+        margin-top: 15px;
+        @include media-breakpoint-up('m'){
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+  &__box5{
+    &__title{
+      @extend .fz-32;
+      line-height: (37/32);
+      color: #F3CA18;
+      font-family: $font-three-Medium;
+    }
+    &__btn{
+      @extend .fz-20;
+      background: #F3CA18;
+      text-transform: inherit;
+    }
+  }
+  &__box6{
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #FFFFFF;
+    &__left{
+      &__txt1{
+        @extend .fz-34;
+        color: #FFD100;
+        line-height: (47/34);
+        font-family: $font-five-SemiBold;
+      }
+      &__rate{
+        @extend .fz-19;
+        color: #FFD100;
+        margin-bottom: 16px;
+      }
+      &__txt2{
+        color: #888888;
+        @extend .fz-14;
+        line-height: (13/11);
+        font-family: $font-four;
+      }
+    }
+    &__right{
+      &__txt1{
+        font-family: $font-four;
+        @extend .fz-16;
+        line-height: 1.5;
+        color: #4F4F4F;
+        min-width: 10px;
+      }
+      &__progress{
+        height: 11px;
+        background: #F2F2F2;
+        border-radius: 5px;
+        &::-webkit-progress-value{
+          background: #F3CA18;
+          border-radius: 5px;
+        }
+      }
+      &__txt2{
+        font-family: $font-four;
+        @extend .fz-16;
+        line-height: 1.5;
+        color: #4F4F4F;
+        min-width: 35px;
+      }
+    }
+  }
+  &__box7{
+    .uk-textarea{
+      border: 1px solid #F2F2F2;
+    }
+    .uk-card-body{
+      border: 1px solid #F2F2F2;
+      border-top: none;
+    }
+    &__title{
+      @extend .fz-25;
+      line-height: (29/25);
+      color: #F3CA18;
+      font-family: $font-three-Bold;
+    }
+  }
+}
+.fb-like{
+  >span{
+    width: inherit !important;
+  }
+  iframe{
+    width: inherit !important;
+    @include media-breakpoint-up('m'){
+      top: 3px;
+    }
+  }
+}
