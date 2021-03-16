@@ -205,6 +205,8 @@
     background-image: url(images/Background1.png), url(images/nhchm1.png) !important;
     background-position: 50% 100%, 50% (-65px);
     background-repeat: no-repeat;
+    // Fix
+    //background-size: 100%, contain;
     @include media-breakpoint-up('m'){
       min-height: 751px !important;
       padding-top: 113px !important;
@@ -261,6 +263,8 @@
     }
   }
   &__section06{
+    // Fix
+    //background-size: 100%;
     &__btn{
       @extend .fz-20;
       font-family: $font-primary-Bold;
