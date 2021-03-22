@@ -141,6 +141,7 @@
             </div>
             <?php endforeach; ?>
         </div>
+        <?php require "template-parts/layouts/pagination1.php"; ?>
         <ul class="uk-pagination uk-flex-center uk-grid-12" uk-grid uk-margin>
             <li class="uk-pagination__li"><a class="uk-pagination__a" href="#"><span uk-pagination-previous></span></a></li>
             <li class="uk-pagination__li"><a class="uk-pagination__a" href="#">1</a></li>
