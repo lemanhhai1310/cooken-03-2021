@@ -32,8 +32,76 @@
         </div>
         <div class="uk-grid-small uk-grid-38-m mb-20 mb-60-m" uk-grid>
             <div class="uk-width-expand">
-
-                <article class="uk-article blog-detail__article">
+                <!--slide-->
+                <div class="slider-for uk-margin-small">
+                    <?php
+                    $data = array(
+                        array(
+                            'src' => 'images/photo.jpg',
+                        ),
+                        array(
+                            'src' => 'images/light.jpg',
+                        ),
+                        array(
+                            'src' => 'images/dark.jpg',
+                        ),
+                        array(
+                            'src' => 'images/photo.jpg',
+                        ),
+                    );
+                    foreach ($data as $k => $v): ?>
+                        <div>
+                            <div class="uk-cover-container">
+                                <img src="<?= $v['src'] ?>" alt="" uk-cover>
+                                <canvas width="740" height="540"></canvas>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+                <div class="slider-nav uk-margin-small">
+                    <?php
+                    $data = array(
+                        array(
+                            'src' => 'images/photo.jpg',
+                        ),
+                        array(
+                            'src' => 'images/light.jpg',
+                        ),
+                        array(
+                            'src' => 'images/dark.jpg',
+                        ),
+                        array(
+                            'src' => 'images/photo.jpg',
+                        ),
+                    );
+                    foreach ($data as $k => $v): ?>
+                    <div class="uk-padding-small uk-padding-remove-top uk-padding-remove-bottom">
+                        <div class="uk-cover-container">
+                            <img src="<?= $v['src'] ?>" alt="" uk-cover>
+                            <canvas width="190" height="139"></canvas>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
+                <script>
+                    $('.slider-for').slick({
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: false,
+                        fade: true,
+                        asNavFor: '.slider-nav'
+                    });
+                    $('.slider-nav').slick({
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        asNavFor: '.slider-for',
+                        dots: false,
+                        centerMode: true,
+                        focusOnSelect: true,
+                    });
+                </script>
+                <!--/slide-->
+                <article class="uk-article blog-detail__article uk-margin">
                     <figure>
                         <img src="https://znews-photo.zadn.vn/w660/Uploaded/seaekt/2021_03_14/ap.jpeg" alt="">
                         <figcaption>Đường phố thủ đô Paris, Pháp, trong thời đại dịch. Ảnh: US News.</figcaption>

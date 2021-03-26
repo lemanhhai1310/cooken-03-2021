@@ -4391,3 +4391,10 @@ body {
     top: 3px;
   }
 }
+
+.slider-nav .uk-padding-small {
+  padding: 5px;
+}
+.slider-nav .uk-padding-small:focus {
+  outline: none;
+}

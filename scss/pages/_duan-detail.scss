@@ -260,3 +260,11 @@
     }
   }
 }
+.slider-nav{
+  .uk-padding-small{
+    padding: 5px;
+    &:focus{
+      outline: none;
+    }
+  }
+}
