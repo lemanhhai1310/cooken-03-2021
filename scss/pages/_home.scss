@@ -41,6 +41,7 @@
     @include media-breakpoint-up('m'){
       padding-top: 171px !important;
       padding-bottom: 63px !important;
+      background-size: 100%, contain;
     }
     &__box1{
       &__img{
@@ -120,6 +121,7 @@
     @include media-breakpoint-up('m'){
       padding-top: 284px !important;
       padding-bottom: 120px !important;
+      background-size: 100%, contain;
     }
     &__box1{
       &__title{
@@ -206,7 +208,7 @@
     background-position: 50% 100%, 50% (-65px);
     background-repeat: no-repeat;
     // Fix
-    //background-size: 100%, contain;
+    background-size: 100%, contain;
     @include media-breakpoint-up('m'){
       min-height: 751px !important;
       padding-top: 113px !important;
@@ -280,6 +282,7 @@
     background-repeat: no-repeat;
     @include media-breakpoint-up('m'){
       padding-top: 139px !important;
+      background-size: 100%, contain;
     }
     &__box1{
       &__btn{

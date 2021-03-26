@@ -32,6 +32,7 @@
         </div>
         <div class="uk-grid-small uk-grid-38-m mb-20 mb-60-m" uk-grid>
             <div class="uk-width-expand">
+
                 <article class="uk-article blog-detail__article">
                     <figure>
                         <img src="https://znews-photo.zadn.vn/w660/Uploaded/seaekt/2021_03_14/ap.jpeg" alt="">

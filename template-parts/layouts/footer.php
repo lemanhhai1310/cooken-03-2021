@@ -51,7 +51,7 @@
             </div>
         </div>
     </div>
-    <div class="uk-section-xsmall footer__bottom">
+    <div class="uk-section-xsmall footer__bottom" uk-toggle="cls: footer__bottom--fixed; mode: media; media: @m" uk-sticky>
         <div class="uk-container uk-container-small">
             <div class="uk-child-width-auto uk-grid-small uk-grid-20-m uk-flex-center" uk-grid>
                 <?php

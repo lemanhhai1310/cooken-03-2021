@@ -38,6 +38,17 @@
     background-color: $color-02;
     padding-top: 15px;
     padding-bottom: 15px;
+    &--fixed{
+      position: fixed!important;
+      top: inherit !important;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      max-width: 100%;
+      & + *{
+        display: block !important;
+      }
+    }
     &__btn{
       @extend .fz-16;
       text-transform: inherit;
