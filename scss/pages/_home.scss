@@ -119,9 +119,14 @@
   }
   &__section04{
     @include media-breakpoint-up('m'){
-      padding-top: 284px !important;
+      //padding-top: 284px !important;
+      //padding-bottom: 120px !important;
+      //background-size: 100%, contain;
+
+      padding-top: 172px !important;
       padding-bottom: 120px !important;
       background-size: 100%, contain;
+      background-position: 50% -150px;
     }
     &__box1{
       &__title{
